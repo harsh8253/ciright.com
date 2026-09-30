@@ -210,7 +210,7 @@ export const productFamilies = [
     short: 'Cloud suite',
     lead: 'Channel data and product data, flowing both ways.',
     body: 'Manufacturers need their indirect sales force aligned. Reps need answers that are prompt, accurate and digital. The cloud suite connects both.',
-    cols: 2,
+    media: { src: '/images/cloud-suite.jpg', alt: 'Technicians working between CNC machines on a manufacturing floor', kind: 'photo' },
     products: [
       { name: 'Bid Cloud', text: 'One view of bids for the whole ecosystem, with the rep as the hub.' },
       { name: 'Project Data Lake', text: 'Normalize legacy project data and integrate construction news feeds.' },
@@ -256,7 +256,7 @@ export const productFamilies = [
     short: 'Fintech',
     lead: 'Identity, payments and loyalty, bolted onto what you run.',
     body: 'Each engine connects to your existing systems, so digital commerce starts without new IT infrastructure.',
-    cols: 3,
+    media: { src: '/images/fintech.jpg', alt: 'A hand inserting a card into a payment terminal', kind: 'photo', position: '50% 15%' },
     products: [
       { name: 'Digital Canopy', text: 'Single sign-on for the people, places and things in your world.' },
       { name: 'API Broker', text: 'All API traffic managed through one containerized switch.' },
@@ -275,7 +275,7 @@ export const productFamilies = [
     short: 'Immersive commerce',
     lead: 'Your showroom, open to every customer at once.',
     body: 'Spatial computing takes the product experience out of the building and puts it wherever your customers are.',
-    media: { src: '/images/vr-design.jpg', alt: 'A woman designing in virtual reality', kind: 'backdrop' },
+    media: { src: '/images/immersive.jpg', alt: 'A man in a virtual reality headset looking up into the scene around him', kind: 'photo', position: '50% 30%' },
     products: [
       { name: 'Immersive showrooms', text: 'Walk customers through products in real time.' },
       { name: 'Guided demos', text: 'Scale expertise without scaling headcount.' },

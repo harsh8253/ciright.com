@@ -6,137 +6,62 @@ import Lenis from 'lenis'
 gsap.registerPlugin(ScrollTrigger)
 ScrollTrigger.clearScrollMemory('manual')
 
-// elements whose scroll destination isn't their layout position (panels inside a pinned room)
+// elements whose scroll destination isn't their layout position (posters inside the pinned reel)
 const scrollDestinations = new Map()
 
 const prefersReduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const finePointer = () => window.matchMedia('(pointer: fine)').matches
 
-const glowPoints = [
-  [72, 30],
-  [28, 72],
-  [64, 18],
-  [82, 70],
-  [36, 32],
-  [60, 66],
-]
-
-function stageSuite(suite) {
-  const track = suite.querySelector('.suite-track')
-  const room = suite.querySelector('.suite-room')
-  const panels = gsap.utils.toArray('.suite-panel', suite)
-  const links = gsap.utils.toArray('.suite-index a', suite)
-  const reel = suite.querySelector('.count-reel')
-  const fill = suite.querySelector('.suite-rail-fill')
-  const n = panels.length
-  let current = 0
-  let tl
-
-  suite.classList.add('is-staged')
-  gsap.set(panels[0], { autoAlpha: 1 })
-
-  const enter = (panel, dir) => {
-    const media = panel.querySelector('.family-media')
-    const r = media ? getComputedStyle(media).borderTopLeftRadius : '0px'
-    const t = gsap
-      .timeline()
-      .set(panel, { autoAlpha: 1 })
-      .set(panel.querySelectorAll('[data-part]'), { y: 0, autoAlpha: 1 })
-      .fromTo(
-        panel.querySelectorAll('.lead-word > span'),
-        { yPercent: 110 * dir },
-        { yPercent: 0, duration: 0.9, ease: 'expo.out', stagger: 0.03 },
-      )
-      .fromTo(
-        panel.querySelector('.suite-body'),
-        { autoAlpha: 0, y: 16 * dir },
-        { autoAlpha: 1, y: 0, duration: 0.7, ease: 'expo.out' },
-        0.2,
-      )
-    if (media) {
-      const from = dir > 0 ? `inset(100% 0% 0% 0% round ${r})` : `inset(0% 0% 100% 0% round ${r})`
-      t.fromTo(media, { clipPath: from }, { clipPath: `inset(0% 0% 0% 0% round ${r})`, duration: 1, ease: 'expo.inOut' }, 0)
-      t.fromTo(media.querySelector('img'), { scale: 1.3 }, { scale: 1, duration: 1.4, ease: 'expo.out' }, 0.1)
-    }
-    const at = media ? 0.45 : 0.1
-    return t
-      .fromTo(
-        panel.querySelectorAll('.product-rule'),
-        { scaleX: 0 },
-        { scaleX: 1, duration: 0.9, ease: 'expo.inOut', stagger: 0.05 },
-        at,
-      )
-      .fromTo(
-        panel.querySelectorAll('.product-name-inner'),
-        { yPercent: 110 },
-        { yPercent: 0, duration: 0.8, ease: 'expo.out', stagger: 0.05 },
-        at + 0.2,
-      )
-      .fromTo(
-        panel.querySelectorAll('.product-text'),
-        { autoAlpha: 0 },
-        { autoAlpha: 1, duration: 0.6, ease: 'power2.out', stagger: 0.05 },
-        at + 0.3,
-      )
-  }
-
-  const go = (next) => {
-    if (next === current) return
-    const dir = next > current ? 1 : -1
-    const out = panels[current]
-    const inn = panels[next]
-    current = next
-    tl?.kill()
-    panels.forEach((p) => p !== out && p !== inn && gsap.set(p, { autoAlpha: 0 }))
-    links.forEach((a, i) => a.classList.toggle('is-active', i === next))
-    gsap.to(reel, { yPercent: (-100 * next) / n, duration: 0.8, ease: 'expo.out', overwrite: true })
-    const [gx, gy] = glowPoints[next % glowPoints.length]
-    gsap.to(suite, { '--gx': `${gx}%`, '--gy': `${gy}%`, duration: 1.6, ease: 'power2.inOut', overwrite: true })
-    tl = gsap
-      .timeline()
-      .to(out.querySelectorAll('[data-part]'), { y: -36 * dir, autoAlpha: 0, duration: 0.32, ease: 'power2.in', stagger: 0.04 })
-      .set(out, { autoAlpha: 0 })
-      .add(enter(inn, dir))
-  }
-
-  const top = () => parseFloat(getComputedStyle(room).top) || 0
-  const st = ScrollTrigger.create({
-    trigger: track,
-    start: () => `top ${top()}px`,
-    end: () => `bottom ${top() + room.offsetHeight}px`,
-    invalidateOnRefresh: true,
-    onUpdate: (self) => {
-      fill.style.transform = `scaleY(${self.progress})`
-      go(Math.min(n - 1, Math.floor(self.progress * n)))
-    },
-  })
-  ScrollTrigger.create({
-    trigger: suite,
-    start: 'top 75%',
-    once: true,
-    onEnter: () => {
-      if (current === 0 && !tl) tl = enter(panels[0], 1)
-    },
-  })
-  panels.forEach((p, i) => scrollDestinations.set(p, () => st.start + ((i + 0.2) / n) * (st.end - st.start)))
-
-  return () => {
-    tl?.kill()
-    gsap.killTweensOf([suite, reel])
-    panels.forEach((p) => scrollDestinations.delete(p))
-    suite.classList.remove('is-staged')
-    links.forEach((a, i) => a.classList.toggle('is-active', i === 0))
-    gsap.set(
-      [
-        suite,
-        reel,
-        fill,
-        ...suite.querySelectorAll(
-          '.suite-panel, [data-part], .lead-word > span, .suite-body, .family-media, .family-media img, .product-rule, .product-name-inner, .product-text',
-        ),
-      ],
-      { clearProps: 'all' },
+function revealFamily(room) {
+  const media = room.querySelector('.family-media')
+  const t = gsap
+    .timeline({ paused: true })
+    .fromTo(
+      room.querySelectorAll('.lead-word > span'),
+      { yPercent: 110 },
+      { yPercent: 0, duration: 1, ease: 'expo.out', stagger: 0.04 },
     )
+    .fromTo(
+      room.querySelectorAll('.suite-lead, .suite-body, .suite-aside .pill'),
+      { autoAlpha: 0, y: 18 },
+      { autoAlpha: 1, y: 0, duration: 0.8, ease: 'expo.out', stagger: 0.08 },
+      0.3,
+    )
+  ScrollTrigger.create({ trigger: room, start: 'top 72%', once: true, onEnter: () => t.play() })
+
+  const list = room.querySelector('.product-list')
+  const rows = gsap
+    .timeline({ paused: true })
+    .fromTo(
+      list.querySelectorAll('.product-rule'),
+      { scaleX: 0 },
+      { scaleX: 1, duration: 0.9, ease: 'expo.inOut', stagger: 0.05 },
+    )
+    .fromTo(
+      list.querySelectorAll('.product-name-inner'),
+      { yPercent: 110 },
+      { yPercent: 0, duration: 0.8, ease: 'expo.out', stagger: 0.05 },
+      0.2,
+    )
+    .fromTo(
+      list.querySelectorAll('.product-text'),
+      { autoAlpha: 0 },
+      { autoAlpha: 1, duration: 0.6, ease: 'power2.out', stagger: 0.05 },
+      0.3,
+    )
+  ScrollTrigger.create({ trigger: list, start: 'top 85%', once: true, onEnter: () => rows.play() })
+
+  if (media) {
+    const r = getComputedStyle(media).borderTopLeftRadius
+    gsap
+      .timeline({ scrollTrigger: { trigger: media, start: 'top bottom', end: 'top 30%', scrub: 0.6 } })
+      .fromTo(
+        media,
+        { clipPath: 'inset(0% 30% 0% 30% round 999px)' },
+        { clipPath: `inset(0% 0% 0% 0% round ${r})`, ease: 'power2.out' },
+        0,
+      )
+      .fromTo(media.querySelector('img'), { scale: 1.25 }, { scale: 1, ease: 'none' }, 0)
   }
 }
 
@@ -381,12 +306,7 @@ export function useSiteMotion() {
         )
       })
 
-      const suite = document.querySelector('.suite')
-      if (suite) {
-        const room = gsap.matchMedia()
-        room.add('(min-width: 1100px) and (min-height: 700px)', () => stageSuite(suite))
-        cleanups.push(() => room.revert())
-      }
+      gsap.utils.toArray('.suite').forEach(revealFamily)
 
       const brandReel = document.querySelector('.reel')
       if (brandReel) {

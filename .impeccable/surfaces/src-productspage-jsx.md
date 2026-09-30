@@ -7,7 +7,7 @@ related_targets: []
 
 Scope: ciright.com/products page (Persuade). Visitor: enterprise buyers comparing Ciright's product families (manufacturers, applied systems / HVAC, reps, IT, fintech and identity teams). Action: schedule a demo. Proof: real product names and capabilities from ciright.com/products, the Daikin 30 days to 9-12 month result. Constraints: no invented products, specs, prices, customers or claims; copy condensed from the source only.
 
-Chosen structure: Night Card Stack (dealt card, user-locked, code-led; image generation not requested). Memorable moment: six navy family cards pinning and receding as each new family stacks over the last, with product names landing as each card arrives.
+Chosen structure: Night Card Stack (dealt card, user-locked, code-led; image generation not requested), later a single pinned suite room, then six navy rooms, now six open "catalogue spread" sections on paper at the user's request (less navy), then made bolder ("looks too simple"): headline-scale family names, an Ink statement row with an "Ask about" pill, a full-width media band, and the products as a full-width ledger whose rows fill Ink on hover. Memorable moment: each media band opens with scroll from a pill into a rounded frame, the hero's twin-pill move repeated once per family, while the family name rises word by word.
 
 ## Direction contract
 

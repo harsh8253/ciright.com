@@ -6,7 +6,7 @@ const groups = [
   {
     page: 'Home and Products',
     href: '/',
-    text: 'Photography via Wikimedia Commons: “Woman Learning Design in Virtual Reality” (CC BY 2.0), “A large crowd enjoys a music concert” (CC BY 2.0), “Philadelphia Night Skyline” (CC BY-SA 4.0). Product renders are illustrative.',
+    text: 'Photography via Wikimedia Commons: “Woman Learning Design in Virtual Reality” (CC BY 2.0), “A large crowd enjoys a music concert” (CC BY 2.0), “Philadelphia Night Skyline” (CC BY-SA 4.0), “CNC Machine Facility” by Antoniusaw (CC BY-SA 4.0), “Paying with a Credit Card” by Hloom Templates (CC BY 2.0), “Beard eyewear HTC Vive” by Matthew Henry (CC0). Product renders are illustrative.',
   },
   {
     page: 'Brands',
