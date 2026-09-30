@@ -61,7 +61,7 @@ function Poster({ brand }) {
         <p className="poster-line">{brand.line}</p>
         <p className="poster-body">{brand.body}</p>
         {brand.href && (
-          <a className="explore" href={brand.href} target="_blank" rel="noreferrer">
+          <a className="explore" href={brand.href} target="_blank" rel="noreferrer" data-own-hover>
             {brand.cta}
             <span className="explore-chip" aria-hidden="true">
               <ArrowUpRight size={12} />

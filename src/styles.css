@@ -1094,7 +1094,48 @@ button {
   text-wrap: pretty;
 }
 .poster .explore {
+  position: relative;
+  isolation: isolate;
   margin-top: calc(20 * var(--u));
+  transition: color 0.4s;
+}
+.poster .explore::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: -6px -6px -6px -16px;
+  border-radius: 999px;
+  background: #fff;
+  clip-path: inset(100% 0 0 0 round 999px);
+  transition: clip-path 0.5s var(--ease-out);
+}
+.poster .explore .explore-chip {
+  transition: transform 0.5s var(--ease-out), background-color 0.4s, color 0.4s;
+}
+.poster .explore:focus-visible {
+  outline: none;
+  color: var(--ink);
+}
+.poster .explore:focus-visible::before {
+  clip-path: inset(0 0 0 0 round 999px);
+}
+.poster .explore:focus-visible .explore-chip {
+  transform: rotate(45deg);
+  background: var(--ink);
+  color: #fff;
+}
+@media (hover: hover) {
+  .poster .explore:hover {
+    color: var(--ink);
+  }
+  .poster .explore:hover::before {
+    clip-path: inset(0 0 0 0 round 999px);
+  }
+  .poster .explore:hover .explore-chip {
+    transform: rotate(45deg);
+    background: var(--ink);
+    color: #fff;
+  }
 }
 .poster.is-next {
   color: var(--ink);
@@ -2784,11 +2825,47 @@ button {
   text-wrap: pretty;
 }
 .leg-lead .explore {
+  position: relative;
+  isolation: isolate;
   margin-top: calc(28 * var(--u));
+  transition: color 0.4s;
 }
-.leg-lead:hover .explore-chip,
+.leg-lead .explore::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: -6px -6px -6px -16px;
+  border-radius: 999px;
+  background: #fff;
+  clip-path: inset(100% 0 0 0 round 999px);
+  transition: clip-path 0.5s var(--ease-out);
+}
+.leg-lead .explore .explore-chip {
+  transition: transform 0.5s var(--ease-out), background-color 0.4s, color 0.4s;
+}
+.leg-lead:focus-visible .explore {
+  color: var(--ink);
+}
+.leg-lead:focus-visible .explore::before {
+  clip-path: inset(0 0 0 0 round 999px);
+}
 .leg-lead:focus-visible .explore-chip {
-  transform: scale(1.25) rotate(45deg);
+  transform: rotate(45deg);
+  background: var(--ink);
+  color: #fff;
+}
+@media (hover: hover) {
+  .leg-lead:hover .explore {
+    color: var(--ink);
+  }
+  .leg-lead:hover .explore::before {
+    clip-path: inset(0 0 0 0 round 999px);
+  }
+  .leg-lead:hover .explore-chip {
+    transform: rotate(45deg);
+    background: var(--ink);
+    color: #fff;
+  }
 }
 .leg-lead:hover .leg-lead-title,
 .leg-lead:focus-visible .leg-lead-title,

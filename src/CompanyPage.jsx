@@ -131,7 +131,7 @@ function Portal() {
                 {leg.when} · {leg.stories.length} {leg.stories.length === 1 ? 'story' : 'stories'}
               </p>
             </div>
-            <a className="leg-lead" href={lead.href} target="_blank" rel="noreferrer">
+            <a className="leg-lead" href={lead.href} target="_blank" rel="noreferrer" data-own-hover>
               <span className="leg-lead-media" data-cursor="Read">
                 <img
                   src={lead.image}
