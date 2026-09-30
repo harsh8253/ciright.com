@@ -450,6 +450,15 @@ export function useSiteMotion() {
         },
       )
       gsap.fromTo(
+        '.quote-portrait img',
+        { scale: 1.15 },
+        {
+          scale: 1,
+          ease: 'none',
+          scrollTrigger: { trigger: '.quote', start: 'top bottom', end: 'top 40%', scrub: true },
+        },
+      )
+      gsap.fromTo(
         '.quote figcaption',
         { opacity: 0, y: 14 },
         {

@@ -240,6 +240,15 @@ function Why() {
         </h2>
       </div>
       <figure className="quote">
+        <div className="quote-portrait">
+          <img
+            src="/images/news-podium.jpg"
+            alt="Joe Callahan, CEO of Ciright, speaking at the Philadelphia Portal in LOVE Park"
+            width="1400"
+            height="934"
+            loading="lazy"
+          />
+        </div>
         <blockquote data-ink>
           <span className="quote-mark">“</span>
           <Ink text="When you have passion, vision, drive and inspiration, you have the foundation for a team that’s destined to win… Add in an engaging environment and a lifetime of experiences with some Philadelphia grit and you have Ciright.”" />
