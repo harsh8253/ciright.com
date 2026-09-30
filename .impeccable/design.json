@@ -1,0 +1,1191 @@
+{
+    "schemaVersion": 2,
+    "generatedAt": "2026-09-30T20:30:00+05:30",
+    "title": "Design System: Ciright",
+    "extensions": {
+        "colorMeta": {
+            "ground": {
+                "role": "neutral",
+                "displayName": "Paper",
+                "canonical": "#f8f8f8",
+                "tonalRamp": [
+                    "oklch(15% 0 0)",
+                    "oklch(25% 0 0)",
+                    "oklch(35% 0 0)",
+                    "oklch(45% 0 0)",
+                    "oklch(55% 0 0)",
+                    "oklch(65% 0 0)",
+                    "oklch(80% 0 0)",
+                    "oklch(97.9% 0 0)"
+                ]
+            },
+            "ink": {
+                "role": "neutral",
+                "displayName": "Ink",
+                "canonical": "#0a0b0e",
+                "tonalRamp": [
+                    "oklch(14.5% 0.006 270)",
+                    "oklch(25% 0.006 270)",
+                    "oklch(35% 0.006 270)",
+                    "oklch(45% 0.006 270)",
+                    "oklch(55% 0.006 270)",
+                    "oklch(65% 0.005 270)",
+                    "oklch(80% 0.004 270)",
+                    "oklch(95% 0.003 270)"
+                ]
+            },
+            "ink-soft": {
+                "role": "neutral",
+                "displayName": "Graphite",
+                "canonical": "#3d3e44",
+                "tonalRamp": [
+                    "oklch(15% 0.01 275)",
+                    "oklch(25% 0.01 275)",
+                    "oklch(36% 0.01 275)",
+                    "oklch(45% 0.01 275)",
+                    "oklch(55% 0.01 275)",
+                    "oklch(65% 0.008 275)",
+                    "oklch(80% 0.006 275)",
+                    "oklch(95% 0.004 275)"
+                ]
+            },
+            "muted": {
+                "role": "neutral",
+                "displayName": "Pencil",
+                "canonical": "#5b5c63",
+                "tonalRamp": [
+                    "oklch(15% 0.01 275)",
+                    "oklch(25% 0.01 275)",
+                    "oklch(35% 0.01 275)",
+                    "oklch(46% 0.01 275)",
+                    "oklch(55% 0.01 275)",
+                    "oklch(65% 0.008 275)",
+                    "oklch(80% 0.006 275)",
+                    "oklch(95% 0.004 275)"
+                ]
+            },
+            "hairline": {
+                "role": "neutral",
+                "displayName": "Hairline",
+                "canonical": "rgba(10, 11, 14, 0.14)",
+                "tonalRamp": [
+                    "rgba(10, 11, 14, 0.9)",
+                    "rgba(10, 11, 14, 0.7)",
+                    "rgba(10, 11, 14, 0.5)",
+                    "rgba(10, 11, 14, 0.35)",
+                    "rgba(10, 11, 14, 0.25)",
+                    "rgba(10, 11, 14, 0.14)",
+                    "rgba(10, 11, 14, 0.08)",
+                    "rgba(10, 11, 14, 0.04)"
+                ]
+            },
+            "white": {
+                "role": "neutral",
+                "displayName": "White",
+                "canonical": "#ffffff",
+                "tonalRamp": [
+                    "oklch(15% 0 0)",
+                    "oklch(25% 0 0)",
+                    "oklch(35% 0 0)",
+                    "oklch(45% 0 0)",
+                    "oklch(55% 0 0)",
+                    "oklch(65% 0 0)",
+                    "oklch(80% 0 0)",
+                    "oklch(100% 0 0)"
+                ]
+            },
+            "night-black": {
+                "role": "neutral",
+                "displayName": "Night Black",
+                "canonical": "#000000",
+                "tonalRamp": [
+                    "oklch(0% 0 0)",
+                    "oklch(15% 0 0)",
+                    "oklch(25% 0 0)",
+                    "oklch(35% 0 0)",
+                    "oklch(45% 0 0)",
+                    "oklch(55% 0 0)",
+                    "oklch(70% 0 0)",
+                    "oklch(85% 0 0)"
+                ]
+            },
+            "night-0": {
+                "role": "neutral",
+                "displayName": "Void",
+                "canonical": "#00010d",
+                "tonalRamp": [
+                    "oklch(12% 0.012 285)",
+                    "oklch(22% 0.012 285)",
+                    "oklch(32% 0.012 285)",
+                    "oklch(45% 0.012 285)",
+                    "oklch(55% 0.01 285)",
+                    "oklch(65% 0.01 285)",
+                    "oklch(80% 0.008 285)",
+                    "oklch(95% 0.004 285)"
+                ]
+            },
+            "night-1": {
+                "role": "primary",
+                "displayName": "Ciright Navy",
+                "canonical": "#01042e",
+                "tonalRamp": [
+                    "oklch(15% 0.07 290)",
+                    "oklch(19% 0.08 290)",
+                    "oklch(35% 0.12 290)",
+                    "oklch(45% 0.13 290)",
+                    "oklch(55% 0.12 290)",
+                    "oklch(65% 0.1 290)",
+                    "oklch(80% 0.06 290)",
+                    "oklch(95% 0.02 290)"
+                ]
+            },
+            "night-2": {
+                "role": "primary",
+                "displayName": "Deep Navy",
+                "canonical": "#040c52",
+                "tonalRamp": [
+                    "oklch(15% 0.08 287)",
+                    "oklch(28% 0.13 287)",
+                    "oklch(35% 0.15 287)",
+                    "oklch(45% 0.16 287)",
+                    "oklch(55% 0.15 287)",
+                    "oklch(65% 0.12 287)",
+                    "oklch(80% 0.07 287)",
+                    "oklch(95% 0.02 287)"
+                ]
+            },
+            "night-3": {
+                "role": "primary",
+                "displayName": "Lifted Navy",
+                "canonical": "#0c1a7c",
+                "tonalRamp": [
+                    "oklch(15% 0.08 287)",
+                    "oklch(25% 0.13 287)",
+                    "oklch(33% 0.16 287)",
+                    "oklch(45% 0.18 287)",
+                    "oklch(55% 0.17 287)",
+                    "oklch(65% 0.14 287)",
+                    "oklch(80% 0.08 287)",
+                    "oklch(95% 0.02 287)"
+                ]
+            },
+            "photo-tint": {
+                "role": "primary",
+                "displayName": "Photo Tint",
+                "canonical": "#1a2a9c",
+                "tonalRamp": [
+                    "oklch(15% 0.08 285)",
+                    "oklch(25% 0.13 285)",
+                    "oklch(35% 0.18 285)",
+                    "oklch(42% 0.2 285)",
+                    "oklch(55% 0.19 285)",
+                    "oklch(65% 0.15 285)",
+                    "oklch(80% 0.08 285)",
+                    "oklch(95% 0.02 285)"
+                ]
+            },
+            "twin": {
+                "role": "secondary",
+                "displayName": "Twin Blue",
+                "canonical": "#6d8bff",
+                "tonalRamp": [
+                    "oklch(15% 0.06 270)",
+                    "oklch(25% 0.1 270)",
+                    "oklch(35% 0.14 270)",
+                    "oklch(45% 0.17 270)",
+                    "oklch(55% 0.18 270)",
+                    "oklch(65% 0.18 270)",
+                    "oklch(80% 0.1 270)",
+                    "oklch(95% 0.03 270)"
+                ]
+            },
+            "ring": {
+                "role": "secondary",
+                "displayName": "Ring Light",
+                "canonical": "#96aaff",
+                "tonalRamp": [
+                    "oklch(15% 0.05 275)",
+                    "oklch(25% 0.08 275)",
+                    "oklch(35% 0.11 275)",
+                    "oklch(45% 0.13 275)",
+                    "oklch(55% 0.14 275)",
+                    "oklch(65% 0.14 275)",
+                    "oklch(74% 0.13 275)",
+                    "oklch(95% 0.03 275)"
+                ]
+            },
+            "night-hairline": {
+                "role": "neutral",
+                "displayName": "Night Hairline",
+                "canonical": "rgba(244, 244, 247, 0.16)",
+                "tonalRamp": [
+                    "rgba(244, 244, 247, 0.9)",
+                    "rgba(244, 244, 247, 0.7)",
+                    "rgba(244, 244, 247, 0.5)",
+                    "rgba(244, 244, 247, 0.35)",
+                    "rgba(244, 244, 247, 0.25)",
+                    "rgba(244, 244, 247, 0.16)",
+                    "rgba(244, 244, 247, 0.08)",
+                    "rgba(244, 244, 247, 0.04)"
+                ]
+            },
+            "on-night": {
+                "role": "neutral",
+                "displayName": "Moonlight",
+                "canonical": "#f4f4f7",
+                "tonalRamp": [
+                    "oklch(15% 0.004 285)",
+                    "oklch(25% 0.004 285)",
+                    "oklch(35% 0.004 285)",
+                    "oklch(45% 0.004 285)",
+                    "oklch(55% 0.004 285)",
+                    "oklch(65% 0.004 285)",
+                    "oklch(80% 0.004 285)",
+                    "oklch(96.5% 0.004 285)"
+                ]
+            },
+            "on-night-soft": {
+                "role": "neutral",
+                "displayName": "Haze",
+                "canonical": "#b4b9d8",
+                "tonalRamp": [
+                    "oklch(15% 0.03 290)",
+                    "oklch(25% 0.04 290)",
+                    "oklch(35% 0.04 290)",
+                    "oklch(45% 0.04 290)",
+                    "oklch(55% 0.04 290)",
+                    "oklch(65% 0.04 290)",
+                    "oklch(78% 0.04 290)",
+                    "oklch(95% 0.012 290)"
+                ]
+            },
+            "mint": {
+                "role": "tertiary",
+                "displayName": "Survey Mint",
+                "canonical": "#dcf2ec",
+                "tonalRamp": [
+                    "oklch(15% 0.02 175)",
+                    "oklch(25% 0.03 175)",
+                    "oklch(35% 0.04 175)",
+                    "oklch(45% 0.05 175)",
+                    "oklch(55% 0.05 175)",
+                    "oklch(65% 0.05 175)",
+                    "oklch(80% 0.04 175)",
+                    "oklch(94% 0.025 175)"
+                ]
+            },
+            "lavender": {
+                "role": "tertiary",
+                "displayName": "Blueprint Tint",
+                "canonical": "#e6e8f5",
+                "tonalRamp": [
+                    "oklch(15% 0.03 290)",
+                    "oklch(25% 0.05 290)",
+                    "oklch(35% 0.07 290)",
+                    "oklch(45% 0.08 290)",
+                    "oklch(55% 0.08 290)",
+                    "oklch(65% 0.07 290)",
+                    "oklch(80% 0.05 290)",
+                    "oklch(93% 0.03 290)"
+                ],
+                "note": "Also the HQ map's land and the halo behind every map label."
+            },
+            "alert": {
+                "role": "alert",
+                "displayName": "Signal Red",
+                "canonical": "#c4321c",
+                "scope": ".desk (declared as --alert on the Contact desk, not :root)",
+                "tonalRamp": [
+                    "oklch(15% 0.05 32)",
+                    "oklch(25% 0.09 32)",
+                    "oklch(35% 0.13 32)",
+                    "oklch(45% 0.16 32)",
+                    "oklch(54% 0.18 32)",
+                    "oklch(65% 0.15 32)",
+                    "oklch(80% 0.09 32)",
+                    "oklch(95% 0.02 32)"
+                ],
+                "note": "Validation tone for the white desk (about 5.5:1 on #fff): an invalid blank's or message box's rule, its 2px red focus line, the 15px error list under the reach line and the 15px error line under the message box. Never outside the desk, never a fill."
+            },
+            "hint": {
+                "role": "neutral",
+                "displayName": "Hint",
+                "canonical": "#6f7077",
+                "scope": ".letter (declared as --hint on the Contact letter, not :root)",
+                "tonalRamp": [
+                    "oklch(15% 0.01 280)",
+                    "oklch(25% 0.01 280)",
+                    "oklch(35% 0.01 280)",
+                    "oklch(45% 0.01 280)",
+                    "oklch(57% 0.01 280)",
+                    "oklch(65% 0.008 280)",
+                    "oklch(80% 0.006 280)",
+                    "oklch(95% 0.003 280)"
+                ],
+                "note": "Placeholder hints in the letter's blanks and message box; about 4.9:1 on #fff. On focus a blank's hint is mixed 55% toward #fff."
+            },
+            "coal": {
+                "role": "neutral",
+                "displayName": "Coal",
+                "canonical": "#2b2c32",
+                "scope": ".subject-pill (Contact desk)",
+                "tonalRamp": [
+                    "oklch(15% 0.01 280)",
+                    "oklch(22% 0.01 280)",
+                    "oklch(29% 0.01 280)",
+                    "oklch(45% 0.01 280)",
+                    "oklch(55% 0.01 280)",
+                    "oklch(65% 0.008 280)",
+                    "oklch(80% 0.006 280)",
+                    "oklch(95% 0.003 280)"
+                ],
+                "note": "Sweep inside a checked (ink-filled) subject pill."
+            },
+            "desk-rule": {
+                "role": "neutral",
+                "displayName": "Desk Rule",
+                "canonical": "rgba(10, 11, 14, 0.22)",
+                "scope": ".desk (declared as --desk-rule; the letter's --blank-rule points to it)",
+                "tonalRamp": [
+                    "rgba(10, 11, 14, 0.9)",
+                    "rgba(10, 11, 14, 0.7)",
+                    "rgba(10, 11, 14, 0.5)",
+                    "rgba(10, 11, 14, 0.35)",
+                    "rgba(10, 11, 14, 0.22)",
+                    "rgba(10, 11, 14, 0.14)",
+                    "rgba(10, 11, 14, 0.08)",
+                    "rgba(10, 11, 14, 0.04)"
+                ],
+                "note": "Resting 2px underline of every blank and of the message box. About 1.7:1 against #fff; the hint text carries identification at rest."
+            },
+            "desk-rule-hover": {
+                "role": "neutral",
+                "displayName": "Desk Rule, Hover",
+                "canonical": "rgba(10, 11, 14, 0.5)",
+                "scope": ".desk (declared as --desk-rule-hover)",
+                "tonalRamp": [
+                    "rgba(10, 11, 14, 0.9)",
+                    "rgba(10, 11, 14, 0.7)",
+                    "rgba(10, 11, 14, 0.5)",
+                    "rgba(10, 11, 14, 0.35)",
+                    "rgba(10, 11, 14, 0.22)",
+                    "rgba(10, 11, 14, 0.14)",
+                    "rgba(10, 11, 14, 0.08)",
+                    "rgba(10, 11, 14, 0.04)"
+                ],
+                "note": "Blank and message-box rule under the pointer; focus turns it solid ink."
+            },
+            "map-rail": {
+                "role": "neutral",
+                "displayName": "Map Rail",
+                "canonical": "rgba(10, 11, 14, 0.3)",
+                "tonalRamp": [
+                    "rgba(10, 11, 14, 0.9)",
+                    "rgba(10, 11, 14, 0.7)",
+                    "rgba(10, 11, 14, 0.5)",
+                    "rgba(10, 11, 14, 0.4)",
+                    "rgba(10, 11, 14, 0.3)",
+                    "rgba(10, 11, 14, 0.14)",
+                    "rgba(10, 11, 14, 0.08)",
+                    "rgba(10, 11, 14, 0.04)"
+                ],
+                "note": "Dashed railway lines on the HQ map (1px, dash 3 3)."
+            },
+            "pin-wash": {
+                "role": "primary",
+                "displayName": "Pin Wash",
+                "canonical": "rgba(1, 4, 46, 0.08)",
+                "tonalRamp": [
+                    "rgba(1, 4, 46, 0.9)",
+                    "rgba(1, 4, 46, 0.7)",
+                    "rgba(1, 4, 46, 0.5)",
+                    "rgba(1, 4, 46, 0.35)",
+                    "rgba(1, 4, 46, 0.2)",
+                    "rgba(1, 4, 46, 0.12)",
+                    "rgba(1, 4, 46, 0.08)",
+                    "rgba(1, 4, 46, 0.04)"
+                ],
+                "note": "Fill inside the HQ map pin's 74-unit ring."
+            }
+        },
+        "typographyMeta": {
+            "display": {
+                "displayName": "Display",
+                "purpose": "Hero headline, the Trust band headline and the closing headline. Hosts media-in-type pills. The partnership engine verb headline (112u, clamped 3 to 6rem, line-height 0.98) is its largest member; the closing's long variant caps at 11vw clamped 2.3 to 4rem on mobile."
+            },
+            "headline": {
+                "displayName": "Headline",
+                "purpose": "Titles of dark sections (Brands, FAQ) and partnership territory names (floor 2.8rem); case-study headline and the territories intro title one step smaller (64u). On mobile, territory names 10vw clamped 2.2 to 3rem, intro title 9vw clamped 2 to 2.4rem, below the hero. The Company section titles (In his words, The Portal, Beyond the Portal) take full headline size on desktop and 9vw clamped 2 to 2.4rem on mobile. Each Portal leg's place name is a smaller member (48u clamped 2 to 3.4rem, line-height 1, -0.04em) beside a 15px haze date line."
+            },
+            "statement": {
+                "displayName": "Statement",
+                "purpose": "Full-sentence h2s on paper sections; the solution-card lead, the suite lead (42u, word-masked) and the CEO quote are larger members of this voice, and the white tagline line in a brand poster's foot (26u, clamped 20 to 29px) a smaller one."
+            },
+            "index": {
+                "displayName": "Index",
+                "purpose": "Large typographic list of platform component names; the suite family index (27u) is a smaller member, and position counters (solution-card number, 96u suite counter) drop to weight 300."
+            },
+            "title": {
+                "displayName": "Title",
+                "purpose": "Card, brand and result-tile names; solution-card and suite family titles at 29u, weight 400."
+            },
+            "product-name": {
+                "displayName": "Product",
+                "purpose": "Product names inside suite panels, each in its own mask so it can rise into place; paired with 14.5px haze product text."
+            },
+            "poster-name": {
+                "displayName": "Poster Name",
+                "purpose": "Brand name at the top of every photo poster, white, max 7em, balanced; 8vw at 560px and below. The paper end card uses the case-study headline size (64u, capped 4.5rem); a proof figure in a poster's foot takes headline size (72u, capped 5rem)."
+            },
+            "lede": {
+                "displayName": "Lede",
+                "purpose": "Hero lede on each page, weight 350. The Company hero lede is larger (19u clamped 16 to 21px, line-height 1.4); the Portal chapter lede takes that size at 400, line-height 1.45, haze, max 34em."
+            },
+            "press-title": {
+                "displayName": "Press Title",
+                "purpose": "Headline of a press story, balanced, 24u under the photograph; underlined (1px, offset 0.16em) on hover or focus. The lead story's is 34u clamped 24 to 38px (24px on mobile). On the Portal legs, the lead story's title is larger (36u clamped 24 to 40px, line-height 1.1, -0.04em) and set beside its photograph, and a story card's title is a lighter member (19u clamped 16 to 21px, weight 400, line-height 1.25; 16px on mobile). Followed by a graphite excerpt (17u, max 58ch; haze and max 42ch on a Portal lead) and a fixed 14px source line: outlet at 500 in ink (moonlight in the Portal field), date and optional medium in pencil (haze)."
+            },
+            "ledger": {
+                "displayName": "Ledger",
+                "purpose": "The You bring / Ciright brings answers in a partnership territory ledger, max 24em, pretty wrap, 19px on mobile. The Ciright answer is weight 450 against the partner's 400: the sides differ by weight, never colour. Row labels are 15.5u, weight 500, pencil, sentence case."
+            },
+            "body": {
+                "displayName": "Body",
+                "purpose": "Paragraphs, 40 to 62ch."
+            },
+            "body-card": {
+                "displayName": "Card Body",
+                "purpose": "Haze body under a solution card and a suite family lead, 40 to 44ch."
+            },
+            "body-small": {
+                "displayName": "Small Body",
+                "purpose": "Haze product text in suite panels and brand-poster body (max 36ch), pretty wrap."
+            },
+            "link": {
+                "displayName": "Link",
+                "purpose": "Explore links ending in an arrow chip; the same fixed 15px at weight 400 sets the quote attribution and the cursor tag word."
+            },
+            "label": {
+                "displayName": "Label",
+                "purpose": "Uppercase stat captions and the hero fact line. Never above a heading."
+            },
+            "hq-title": {
+                "displayName": "HQ Title",
+                "purpose": "The street address as the Contact page's HQ heading, balanced. The case-study headline step (64u, capped 4.5rem) with the floor raised to 2.6rem. The address under it is 19u clamped 17.5 to 21px, line-height 1.4 (also the Contact hero lede, max 34em); the note under that is 15px pencil."
+            },
+            "letter": {
+                "displayName": "Letter",
+                "purpose": "The Contact form's running sentences in ink, and the typed value in each inline blank, which inherits the line's size and tracking. Lines cap at 24em, pretty wrap, 10u apart. 26px at line-height 1.5 at 900px and below. No visible field labels; each blank has a visually hidden label."
+            },
+            "letter-message": {
+                "displayName": "Letter Message",
+                "purpose": "Text and Hint placeholder of the message box under 'Here is what I have in mind:'. 19px at 900px and below."
+            },
+            "letter-error": {
+                "displayName": "Letter Error",
+                "purpose": "Signal Red error list under the reach line and the error line 10px under the message box. The desk status line is the same 15px in ink, line-height 1.45, max 62ch."
+            },
+            "map-label": {
+                "displayName": "Map Label",
+                "purpose": "Street and station labels on the HQ map, graphite on an 8-unit lavender halo (paint-order stroke). SVG user units in the 2100 x 1400 map (cropped with slice); 48 units with a 12-unit halo at 900px and below."
+            },
+            "map-label-river": {
+                "displayName": "River Label",
+                "purpose": "'Schuylkill River', moonlight inside the navy water, no halo, rotated along the river and flipped to stay upright. SVG user units; 38 at 900px and below."
+            },
+            "map-pin-label": {
+                "displayName": "Pin Label",
+                "purpose": "'Ciright' beside the HQ pin, ink on a 10-unit lavender halo. SVG user units; 64 with a 14-unit halo at 900px and below."
+            }
+        },
+        "fixedChromeSizes": [
+            {
+                "value": "17px",
+                "purpose": "Footer links, footer pills, the mobile menu's pill and login link."
+            },
+            {
+                "value": "13px",
+                "purpose": "Footer credits."
+            },
+            {
+                "value": "40px",
+                "purpose": "Mobile menu links, -0.03em, line-height 1.1."
+            },
+            {
+                "value": "14px",
+                "purpose": "Press source line (13.5px in a Portal story card, 13px in its mobile row), the podium caption, and the pencil caption voice on the Company page."
+            },
+            {
+                "value": "15px",
+                "purpose": "The date line beside a Portal leg's place name ('October to November 2024 · 5 stories'), weight 400, haze."
+            },
+            {
+                "value": "14px",
+                "purpose": "Jump pills at 900px and below."
+            },
+            {
+                "value": "15px",
+                "purpose": "Contact letter errors (Signal Red, -0.01em; the list at line-height 1.5), the desk status line (ink, line-height 1.45), and the HQ note (pencil)."
+            },
+            {
+                "value": "26px",
+                "purpose": "Contact letter at 900px and below, line-height 1.5."
+            },
+            {
+                "value": "19px",
+                "purpose": "Contact message box at 900px and below."
+            },
+            {
+                "value": "14px",
+                "purpose": "Contact subject pills at 900px and below, padded 16px (the shared pill's 15u above)."
+            }
+        ],
+        "units": [
+            {
+                "name": "u",
+                "value": "clamp(0.8px, calc(100vw / 1280), 1.125px)",
+                "purpose": "One pixel of the 1280px comp; every desktop size is a multiple. Rescaled against 1180 below 1100px, fixed at 1px at 900px and below."
+            },
+            {
+                "name": "u-room",
+                "value": "min(clamp(0.8px, calc(100vw / 1280), 1.125px), calc(100vh / 830))",
+                "purpose": "The unit inside the staged Products suite room and the staged Brands reel pin, capped by viewport height so the pinned room always fits one screen."
+            }
+        ],
+        "shadows": [
+            {
+                "name": "tile-lift",
+                "value": "0 30px 60px -30px rgba(1, 4, 46, 0.35)",
+                "purpose": "The only drop shadow: under mint and lavender result tiles, tinted indigo."
+            },
+            {
+                "name": "header-rule",
+                "value": "0 1px 0 rgba(10, 11, 14, 0.14)",
+                "purpose": "Hairline under the sticky header once scrolled past 40px."
+            },
+            {
+                "name": "end-card-outline",
+                "value": "inset 0 0 0 1px rgba(10, 11, 14, 0.14)",
+                "purpose": "Inset hairline that draws the paper end card of the brands reel; not elevation."
+            },
+            {
+                "name": "poster-dim",
+                "value": "::after background #01042e, opacity calc((1 - var(--lit)) * 0.5)",
+                "purpose": "Navy veil over out-of-focus brand posters; depth by light, not shadow."
+            },
+            {
+                "name": "territory-scrim",
+                "value": "linear-gradient(0deg, rgba(1, 4, 46, 0.92) 0%, rgba(1, 4, 46, 0.55) 30%, rgba(1, 4, 46, 0) 58%)",
+                "purpose": "Single Ciright Navy foot scrim under the 'Built here' overlay on partnership territory photos. Not elevation."
+            },
+            {
+                "name": "poster-scrims",
+                "value": "linear-gradient(180deg, rgba(1, 4, 46, 0.74) 0%, rgba(1, 4, 46, 0) 38%), linear-gradient(0deg, rgba(1, 4, 46, 0.96) 0%, rgba(1, 4, 46, 0.78) 36%, rgba(1, 4, 46, 0) 68%)",
+                "purpose": "Ciright Navy legibility scrims over every poster photo: under the name at the top, under the foot at the bottom. Not elevation."
+            },
+            {
+                "name": "portal-glow-rings",
+                "value": "radial-gradient(circle at var(--cx) var(--cy), #0c1a7c 0%, #040c52 22vw, transparent 46vw) under three ring-light rings (rgba(150, 170, 255, 0.12 / 0.09 / 0.06); 60vw, 90vw, 124vw across), all centred on the step frame's photographed Portal ring",
+                "purpose": "Light inside the Company page's Portal field; the rings echo the Portal. Not elevation."
+            },
+            {
+                "name": "header-glass",
+                "value": "background: color-mix(in srgb, #f8f8f8 88%, transparent); backdrop-filter: saturate(1.4) blur(14px)",
+                "purpose": "Frosted paper header."
+            },
+            {
+                "name": "desk-outline",
+                "value": "border: 1px solid var(--line) (rgba(10, 11, 14, 0.14)) on a #fff room, no glow",
+                "purpose": "Draws the white Contact desk against the paper page. A hairline, not elevation."
+            },
+            {
+                "name": "blank-focus-line",
+                "value": "border-bottom-color var(--ink); box-shadow: 0 2px 0 var(--ink) (border and shadow var(--alert) when invalid)",
+                "purpose": "A second 2px line under a focused blank's or message box's 2px rule, so the underline reads 4px; the rule is the focus indicator. Not elevation."
+            },
+            {
+                "name": "autofill-mask",
+                "value": "box-shadow: 0 0 0 100px #fff inset; -webkit-text-fill-color: var(--ink); transition: background-color 9999s",
+                "purpose": "Keeps browser autofill from painting a tinted box inside a letter blank. Not elevation."
+            }
+        ],
+        "motion": [
+            {
+                "name": "ease-out",
+                "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+                "purpose": "Every CSS state transition (pill sweep, underline wipe, row wipe, chip rotate, accordion)."
+            },
+            {
+                "name": "pill-sweep",
+                "value": "0.6s ease-out; ellipse from translateY(0) scale(0.6) to translateY(-70%) scale(1.2)",
+                "purpose": "Hover and focus fill rising through pills."
+            },
+            {
+                "name": "row-wipe",
+                "value": "0.55s ease-out; scaleY(0 to 1) from bottom",
+                "purpose": "Ink wipe behind component rows on hover."
+            },
+            {
+                "name": "chip-turn",
+                "value": "0.5s ease-out; scale(1.25) rotate(45deg)",
+                "purpose": "Arrow chip response on link or card hover."
+            },
+            {
+                "name": "smooth-scroll",
+                "value": "Lenis lerp 0.1 driving ScrollTrigger",
+                "purpose": "Inertial page scroll. Anchor jumps use a registered scroll destination when the target has one (staged suite panels: (i + 0.2)/6 through the pinned range; staged brand posters: the position that brings their centre to the focus point); otherwise they honor the target's scroll-margin-top and fall back to a -24px offset only when none is set."
+            },
+            {
+                "name": "headline-reveal",
+                "value": "yPercent 105 to 0, 1.1s expo.out, stagger 0.09",
+                "purpose": "Hero headline lines rise out of masked lines on load."
+            },
+            {
+                "name": "pill-unmask",
+                "value": "clip-path inset(0 50% 0 50% round 999px) to full, 1.3s expo.out",
+                "purpose": "Media-in-type pill opens from its center on load."
+            },
+            {
+                "name": "section-reveal",
+                "value": "y 28 to 0, opacity 0.6 to 1, 1s expo.out, once at top 88%",
+                "purpose": "Statements and headings on scroll."
+            },
+            {
+                "name": "hero-intro-guard",
+                "value": "reel handoff and pill unmask run only when the hero has a twin pill and reel frame and the page loads above 40px of scroll",
+                "purpose": "Pages without a reel (Products) skip the intro and fade the hero row and jump pills in instead."
+            },
+            {
+                "name": "stack-recede",
+                "value": "scale 0.94, brightness 0.6, scrubbed while the next card travels from top 85% to top 15%; only while the card is actually sticky",
+                "purpose": "Homepage solution cards recede under the next card."
+            },
+            {
+                "name": "suite-stage",
+                "value": "gsap.matchMedia '(min-width: 1100px) and (min-height: 700px)', never under reduced motion or ?still; adds .is-staged; track = (100vh - header) + 6 x 90vh; room sticky at header height",
+                "purpose": "Pins the Products suite room and turns the panel list into an index beside one stage."
+            },
+            {
+                "name": "suite-switch-out",
+                "value": "active = floor(progress x 6); outgoing copy and side y -36px x direction, autoAlpha 0, 0.32s power2.in, stagger 0.04; a new switch kills the running timeline",
+                "purpose": "Outgoing family lifts away against the scroll direction."
+            },
+            {
+                "name": "suite-switch-in",
+                "value": "lead words yPercent +/-110 to 0, 0.9s expo.out, stagger 0.03 (direction-aware); body autoAlpha 0 and y 16 to rest, 0.7s expo.out, +0.2s; media clip-path inset(100% 0 0 0) (or from the top when reversing) to inset(0) at its radius, 1s expo.inOut, image scale 1.3 to 1 over 1.4s expo.out; product rules scaleX 0 to 1 from left, 0.9s expo.inOut, stagger 0.05; names yPercent 110 to 0, 0.8s expo.out; text autoAlpha 0 to 1, 0.6s power2.out",
+                "purpose": "Incoming family assembles on the stage; the first family plays it once when the room reaches top 75%."
+            },
+            {
+                "name": "count-reel",
+                "value": "shared .count-window / .count-reel / .count-total; reel yPercent -100 x index / n, expo.out (0.8s in the suite, 0.7s in the brands reel)",
+                "purpose": "Two-digit rolling counter, shared by the Products suite index and the Brands reel foot."
+            },
+            {
+                "name": "suite-glow-drift",
+                "value": "--gx / --gy to a per-family point, 1.6s power2.inOut",
+                "purpose": "The room's radial glow moves with each family."
+            },
+            {
+                "name": "suite-rail-fill",
+                "value": "scaleY(progress) from top, set directly on scroll",
+                "purpose": "Index rail fills with progress through the pinned room."
+            },
+            {
+                "name": "reel-stage",
+                "value": "gsap.matchMedia '(min-width: 901px) and (min-height: 640px)', never under reduced motion or ?still; adds .is-staged; pin sticky at header height (max(74u, 60px)), height 100vh - header, overflow clip; track height = pin height + walk distance (first poster centre to last poster centre)",
+                "purpose": "Pins the Brands reel so vertical scroll can walk it sideways."
+            },
+            {
+                "name": "reel-walk",
+                "value": "strip x = -distance x progress, set directly on every ScrollTrigger update (no easing); progress fill scaleX(progress) from left",
+                "purpose": "The Brands page's one authored motion: the poster strip moves only as the page scrolls."
+            },
+            {
+                "name": "poster-lit",
+                "value": "d = |poster centre - focus| / poster step; --lit = 1 - smoothstep(0.2, 0.65, d); scale(0.95 + 0.05 x lit) from bottom centre; navy veil opacity (1 - lit) x 0.5",
+                "purpose": "Focus light: the poster at the focus point is fully lit, neighbours dim and settle back by distance. Unstaged, --lit stays 1."
+            },
+            {
+                "name": "poster-bloom",
+                "value": "img filter grayscale(1 - 0.9 x lit) contrast(1.22 - 0.1 x lit) brightness(0.46 + 0.3 x lit); img transform scale(1.14 - 0.1 x lit); photo-tint #1a2a9c color-blend layer opacity 1 - 0.85 x lit",
+                "purpose": "Focus bloom: out-of-focus posters are navy monochrome; the lit poster blooms to its photo's true colour as the image settles. Unstaged, every poster is lit and in colour."
+            },
+            {
+                "name": "territory-bloom",
+                "value": "per .territory-media: --lit 0 to 1, ease none, ScrollTrigger start 'top 85%' end 'center 55%', scrub 0.5; img filter, img scale and photo-tint opacity use the poster-bloom formula; no veil, frame never scales; CSS default --lit 1",
+                "purpose": "Scroll bloom: each partnership territory photo turns from navy monochrome to full colour as it rises into view, and drains again on the way back. Without motion every photo rests in colour."
+            },
+            {
+                "name": "engine-verbs",
+                "value": ".engine-verb opacity 0.14 to 1, ease none, stagger 0.5, ScrollTrigger on .engine-title start 'top 82%' end 'bottom 45%', scrub 0.4",
+                "purpose": "The partnership page's authored motion: Develop. Build. Market. Launch. light up in reading order. Fully inked without motion."
+            },
+            {
+                "name": "portal-step-through",
+                "value": ".portal-step: clip-path circle(var(--r) at 61.7% 56.9%); --r from CSS --r-from (24%, 36% at 900px and below) to 88% and --lit 0.1 to 1, ease none, ScrollTrigger start 'top 80%' end 'center 45%', scrub 0.6, invalidateOnRefresh; img filter grayscale(1 - lit) contrast(1.22 - 0.12 x lit) brightness(0.46 + 0.62 x lit); photo-tint color layer opacity 1 - 0.85 x lit; CSS defaults --r 150%, --lit 1",
+                "purpose": "The Company page's one authored motion: the night photograph of the Portal is revealed through a circle that opens from the photographed ring, blooming to colour (brightness 1.08, brighter than the poster formula because it is a night photograph). Fully open and lit without motion."
+            },
+            {
+                "name": "leg-hover-zoom",
+                "value": ".leg-lead / .leg-card :hover / :focus-visible img scale 1.05, 0.9s ease-out; title underline 1px, offset 0.16em; the lead's explore chip scale(1.25) rotate(45deg)",
+                "purpose": "Portal leg story response; the outlet photograph keeps its own colour and is never tinted or bloomed."
+            },
+            {
+                "name": "podium-settle",
+                "value": ".podium-frame img from scale 1.12, 1.8s expo.out, delay 0.15s, on load",
+                "purpose": "The Company hero photograph settles once as the page opens."
+            },
+            {
+                "name": "press-hover-zoom",
+                "value": ".press:hover / :focus-visible .press-media img scale 1.04, 0.9s ease-out; title underline 1px, offset 0.16em",
+                "purpose": "Press story response on paper; the photo keeps its own colour."
+            },
+            {
+                "name": "poster-hover-zoom",
+                "value": "(hover: hover) img scale: 1.05, 0.9s ease-out",
+                "purpose": "Hover eases the poster photo in; it never changes the light."
+            },
+            {
+                "name": "figure-count",
+                "value": "0 to target, 1.8s expo.out, toFixed(2); once, the first time its poster is nearest the focus point; final value restored when unstaged",
+                "purpose": "Proof figure in a poster's foot (Sansar 4.36M) counts up."
+            },
+            {
+                "name": "reel-focus-walk",
+                "value": "focusin on the strip scrolls (Lenis) to the focused poster's registered destination: track start + (poster centre - focus point)",
+                "purpose": "Keyboard support: tabbing into a poster brings it to the focus point."
+            },
+            {
+                "name": "media-parallax",
+                "value": "yPercent -6 to 6, scrubbed across the card",
+                "purpose": "Drift of homepage solution-card imagery."
+            },
+            {
+                "name": "product-row-hover",
+                "value": "product rule to rgba(150, 170, 255, 0.7) over 0.4s; name translateX(10u) over 0.55s ease-out; text to moonlight over 0.3s; hover-capable pointers only",
+                "purpose": "Product row response inside suite panels."
+            },
+            {
+                "name": "media-zoom-out",
+                "value": "scale 1.15 to 1, scrubbed from card entry to viewport center",
+                "purpose": "Brand and trust media settle as they enter."
+            },
+            {
+                "name": "tile-tilt",
+                "value": "from rotate [-9, 7, -6, 11] deg, y 90 + 28 per index, x 3x the angle, to a level row at 0; scrub 0.6, ending at deck center 62% minus 3% per tile (card center 70% on mobile)",
+                "purpose": "Result tiles arrive scattered and settle into a straight, level row."
+            },
+            {
+                "name": "magnetic",
+                "value": "quickTo 0.5s elastic.out(1, 0.4); offset x 0.28, y 0.36",
+                "purpose": "Pills drift toward a fine pointer."
+            },
+            {
+                "name": "cursor-follow",
+                "value": "quickTo 0.45s power3.out; 12px dot, 44px on links, 56px content-sized tag with looping arrow chip and velocity swing on labeled cards",
+                "purpose": "Difference-blend cursor."
+            },
+            {
+                "name": "reduced-motion",
+                "value": "prefers-reduced-motion or ?still: no Lenis, no GSAP, no cursor; transitions 0.01ms; sticky cards static; the suite never stages and stays a plain list; the brands reel never stages and stays a native scroll-snap row with every poster lit; partnership territory photos rest fully lit and the engine verbs fully inked; the Portal step-through rests fully open and lit; the Contact Send label changes without rolling and the HQ pin ring rests open",
+                "purpose": "Still, fully legible fallback."
+            },
+            {
+                "name": "send-roll",
+                "value": "@keyframes send-roll from { transform: translateY(80%); opacity: 0; filter: blur(3px) }, 0.6s ease-out; replayed by re-keying the label on every subject change and on 'Sending…'; animation none under prefers-reduced-motion",
+                "purpose": "The Contact page's authored motion: the Send pill's label rolls up to name the chosen subject ('Send my M&A inquiry')."
+            },
+            {
+                "name": "subject-check",
+                "value": "color, background-color, border-color 0.3s; the shared pill-sweep rises ink with a white label on hover (hover: hover only) and on keyboard focus, like Products' .family-pill; #2b2c32 once checked; focus adds a 2px ink outline offset 3px",
+                "purpose": "Subject pill turning from an ink outline to an ink fill with a white label when checked; hover and focus answer with the site's own sweep."
+            },
+            {
+                "name": "blank-rule",
+                "value": "border-color, box-shadow 0.3s ease-out",
+                "purpose": "Blank and message-box rule moving between rest, hover, focus and invalid."
+            },
+            {
+                "name": "hq-pin-ring",
+                "value": "gsap.from .hq-pin-ring scale 0.2, opacity 0, transformOrigin 50% 50%, 1.8s expo.out, ScrollTrigger trigger .hq-map start 'top 72%' once",
+                "purpose": "The HQ map pin's ring opens once as the map scrolls in; nothing loops."
+            }
+        ],
+        "breakpoints": [
+            {
+                "name": "tablet",
+                "value": "1100px"
+            },
+            {
+                "name": "hero-fold",
+                "value": "960px"
+            },
+            {
+                "name": "mobile",
+                "value": "900px"
+            },
+            {
+                "name": "narrow",
+                "value": "560px"
+            },
+            {
+                "name": "suite-stage",
+                "value": "(min-width: 1100px) and (min-height: 700px)"
+            },
+            {
+                "name": "reel-stage",
+                "value": "(min-width: 901px) and (min-height: 640px)"
+            }
+        ],
+        "radiusNotes": [
+            {
+                "value": "6px",
+                "token": "rounded.focus",
+                "purpose": "Corner of the global 2px twin-blue focus ring on non-pill elements."
+            },
+            {
+                "value": "32u / 22px",
+                "token": "rounded.territory / rounded.territory-mobile",
+                "purpose": "Partnership territory photo frame (5:4, 4:3.6 at 900px and below); a step between card and section."
+            },
+            {
+                "value": "32u / 22px (Company)",
+                "token": "rounded.territory / rounded.territory-mobile",
+                "purpose": "Also every standalone medium on the Company page: the podium frame (4:5 on mobile; from 961px it stretches to the height of the hero's text column, min 360u), press photographs (3:2, 16:10 in a side column and for each Portal leg's lead, 4:3 offset) and the Portal step frame (1280:576, 4:3 on mobile)."
+            },
+            {
+                "value": "20u / 10px",
+                "token": "rounded.card / rounded.thumb-mobile",
+                "purpose": "Portal story cards (3:2) at the card radius; 104px thumbnails at 10px in their mobile rows."
+            },
+            {
+                "value": "18px / 28px",
+                "token": "rounded.card-mobile / rounded.section-mobile",
+                "purpose": "Card and capsule/suite radii at 900px and below, where the unit is fixed at 1px."
+            },
+            {
+                "value": "10px",
+                "token": null,
+                "purpose": "Page scrollbar thumb (navy, 3px paper border). Browser chrome, not a component radius; not tokenized."
+            }
+        ]
+    },
+    "components": [
+        {
+            "name": "Primary Pill",
+            "kind": "button",
+            "refersTo": "button-primary",
+            "description": "Ink pill for the main action; night-indigo sweep rises through it on hover and focus.",
+            "html": "<a class=\"ds-pill ds-pill-dark\" href=\"#\"><span class=\"ds-pill-text\">Schedule a demo <svg width=\"14\" height=\"14\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M6 4.5h5.5V10\"/></svg></span></a>",
+            "css": ".ds-pill { position: relative; display: inline-flex; align-items: center; justify-content: center; height: 49px; min-height: 44px; padding: 0 22px; border-radius: 999px; font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; font-size: 15px; font-weight: 400; white-space: nowrap; overflow: hidden; isolation: isolate; text-decoration: none; } .ds-pill::before { content: ''; position: absolute; left: -10%; right: -10%; top: 100%; height: 260%; border-radius: 50%; z-index: -1; transform: translateY(0) scale(0.6); transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); } .ds-pill:hover::before, .ds-pill:focus-visible::before { transform: translateY(-70%) scale(1.2); } .ds-pill:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; } .ds-pill-text { display: inline-flex; align-items: center; gap: 10px; } .ds-pill-dark { background: var(--ink, #0a0b0e); color: #fff; } .ds-pill-dark::before { background: var(--night-3, #0c1a7c); }"
+        },
+        {
+            "name": "Light Pill",
+            "kind": "button",
+            "refersTo": "button-light",
+            "description": "White pill with a lavender sweep, for actions on indigo or black.",
+            "html": "<div style=\"background:#000;padding:24px\"><a class=\"ds-pill-light\" href=\"#\"><span>Schedule a demo</span></a></div>",
+            "css": ".ds-pill-light { position: relative; display: inline-flex; align-items: center; height: 49px; padding: 0 22px; border-radius: 999px; background: #fff; color: var(--ink, #0a0b0e); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; font-size: 15px; overflow: hidden; isolation: isolate; text-decoration: none; } .ds-pill-light::before { content: ''; position: absolute; left: -10%; right: -10%; top: 100%; height: 260%; border-radius: 50%; z-index: -1; background: var(--lavender, #e6e8f5); transform: translateY(0) scale(0.6); transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); } .ds-pill-light:hover::before, .ds-pill-light:focus-visible::before { transform: translateY(-70%) scale(1.2); } .ds-pill-light:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; }"
+        },
+        {
+            "name": "Outline Pill",
+            "kind": "button",
+            "refersTo": "button-outline",
+            "description": "Hairline white pill on black; white sweep turns the label ink. Footer contact and login.",
+            "html": "<div style=\"background:#000;padding:24px\"><a class=\"ds-pill-outline\" href=\"#\"><span>Contact us</span></a></div>",
+            "css": ".ds-pill-outline { position: relative; display: inline-flex; align-items: center; height: 46px; padding: 0 22px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, 0.55); color: #fff; font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; font-size: 17px; overflow: hidden; isolation: isolate; text-decoration: none; transition: color 0.3s; } .ds-pill-outline::before { content: ''; position: absolute; left: -10%; right: -10%; top: 100%; height: 260%; border-radius: 50%; z-index: -1; background: #fff; transform: translateY(0) scale(0.6); transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); } .ds-pill-outline:hover, .ds-pill-outline:focus-visible { color: var(--ink, #0a0b0e); } .ds-pill-outline:hover::before, .ds-pill-outline:focus-visible::before { transform: translateY(-70%) scale(1.2); } .ds-pill-outline:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; }"
+        },
+        {
+            "name": "Jump Pill",
+            "kind": "button",
+            "refersTo": "button-jump",
+            "description": "Paper outline pill for in-page section jumps; ink sweep rises and the label turns white. Travels as a wrapping row.",
+            "html": "<ul class=\"ds-jump-row\"><li><a class=\"ds-jump\" href=\"#\"><span>Spatial computing</span></a></li><li><a class=\"ds-jump\" href=\"#\"><span>Connection engine</span></a></li><li><a class=\"ds-jump\" href=\"#\"><span>Cloud suite</span></a></li></ul>",
+            "css": ".ds-jump-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; } .ds-jump { position: relative; display: inline-flex; align-items: center; height: 42px; padding: 0 20px; border: 1px solid var(--ink, #0a0b0e); border-radius: 999px; color: var(--ink, #0a0b0e); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; font-size: 15px; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; isolation: isolate; text-decoration: none; } .ds-jump span { transition: color 0.3s; } .ds-jump::before { content: ''; position: absolute; left: -10%; right: -10%; top: 100%; height: 260%; border-radius: 50%; z-index: -1; background: var(--ink, #0a0b0e); transform: translateY(0) scale(0.6); transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); } .ds-jump:hover, .ds-jump:focus-visible { color: #fff; } .ds-jump:hover::before, .ds-jump:focus-visible::before { transform: translateY(-70%) scale(1.2); } .ds-jump:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; }"
+        },
+        {
+            "name": "Header Navigation",
+            "kind": "nav",
+            "refersTo": "nav-link",
+            "description": "Frosted paper bar: lowercase wordmark, wipe-underline links (the current page keeps its underline), small ink Contact pill.",
+            "html": "<header class=\"ds-nav\"><a class=\"ds-nav-mark\" href=\"#\">ciright</a><ul class=\"ds-nav-links\"><li><a href=\"#\">Platform</a></li><li><a href=\"#\" aria-current=\"page\">Products</a></li><li><a href=\"#\">Brands</a></li><li><a href=\"#\">Company</a></li></ul><a class=\"ds-nav-pill\" href=\"#\">Contact</a></header>",
+            "css": ".ds-nav { display: flex; align-items: center; height: 74px; padding: 0 32px; background: color-mix(in srgb, var(--ground, #f8f8f8) 88%, transparent); backdrop-filter: saturate(1.4) blur(14px); box-shadow: 0 1px 0 rgba(10, 11, 14, 0.14); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; color: var(--ink, #0a0b0e); } .ds-nav a { color: inherit; text-decoration: none; } .ds-nav-mark { font-size: 29px; font-weight: 600; letter-spacing: -0.035em; line-height: 1; margin-right: auto; } .ds-nav-links { display: flex; gap: 33px; margin: 0 30px 0 0; padding: 0; list-style: none; } .ds-nav-links a { position: relative; font-size: 16px; letter-spacing: -0.04em; } .ds-nav-links a::after { content: ''; position: absolute; left: 0; right: 0; bottom: -4px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav-links a:hover::after, .ds-nav-links a:focus-visible::after, .ds-nav-links a[aria-current='page']::after { transform: scaleX(1); transform-origin: left; } .ds-nav-pill { display: inline-flex; align-items: center; height: 38px; padding: 0 17px; border-radius: 999px; background: var(--ink, #0a0b0e); color: #fff !important; font-size: 14.5px; transition: background 0.4s; } .ds-nav-pill:hover, .ds-nav-pill:focus-visible { background: var(--night-3, #0c1a7c); } .ds-nav a:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; border-radius: 6px; }"
+        },
+        {
+            "name": "Explore Link With Arrow Chip",
+            "kind": "chip",
+            "refersTo": "explore-chip",
+            "description": "Card-level text link ending in a white circular arrow chip that turns 45 degrees on hover.",
+            "html": "<div style=\"background:#040c52;padding:24px;color:#f4f4f7\"><a class=\"ds-explore\" href=\"#\">Explore the Core <span class=\"ds-explore-chip\" aria-hidden=\"true\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 11.5 11.5 4.5M6 4.5h5.5V10\"/></svg></span></a></div>",
+            "css": ".ds-explore { display: inline-flex; align-items: center; gap: 14px; font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; font-size: 15px; font-weight: 500; color: inherit; text-decoration: none; } .ds-explore-chip { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: #fff; color: var(--ink, #0a0b0e); transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-explore:hover .ds-explore-chip, .ds-explore:focus-visible .ds-explore-chip { transform: scale(1.25) rotate(45deg); } .ds-explore:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; border-radius: 6px; }"
+        },
+        {
+            "name": "Solution Card",
+            "kind": "card",
+            "refersTo": "solution-card",
+            "description": "Night-field card with radar rings, plain title, bottom-anchored lead statement, haze body and a two-digit index.",
+            "html": "<article class=\"ds-solution\"><div class=\"ds-solution-rings\"></div><h2 class=\"ds-solution-title\">Ciright Core</h2><span class=\"ds-solution-num\">01</span><p class=\"ds-solution-lead\">The connection engine of the digital enterprise.</p><p class=\"ds-solution-body\">Deploy in a public cloud, private cloud, hybrid cloud or on your own premises.</p></article>",
+            "css": ".ds-solution { position: relative; display: flex; flex-direction: column; min-height: 340px; padding: 33px 42px 40px; border-radius: 20px; overflow: hidden; color: var(--on-night, #f4f4f7); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; background: radial-gradient(72% 95% at 50% 45%, var(--night-3, #0c1a7c) 0%, var(--night-2, #040c52) 48%, var(--night-1, #01042e) 100%), var(--night-1, #01042e); } .ds-solution-rings { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(closest-side, transparent 97%, rgba(150, 170, 255, 0.12) 98%, transparent 100%) 50% 105% / 70% 150% no-repeat, radial-gradient(closest-side, transparent 97%, rgba(150, 170, 255, 0.09) 98%, transparent 100%) 50% 105% / 100% 210% no-repeat; } .ds-solution-title { position: relative; margin: 0; font-size: 29px; font-weight: 400; letter-spacing: -0.02em; line-height: 1.15; } .ds-solution-num { position: absolute; top: 37px; right: 51px; font-size: 19px; font-weight: 300; letter-spacing: -0.03em; } .ds-solution-lead { position: relative; margin: auto 0 0; padding-top: 48px; max-width: 16em; font-size: 34px; line-height: 1.12; letter-spacing: -0.025em; text-wrap: balance; } .ds-solution-body { position: relative; margin: 18px 0 0; max-width: 44ch; font-size: 15.5px; line-height: 1.55; color: var(--on-night-soft, #b4b9d8); }"
+        },
+        {
+            "name": "Suite Room",
+            "kind": "custom",
+            "refersTo": "suite-room",
+            "description": "Signature: the staged Products room. Navy ground with a movable glow and radar rings; a family index with progress rail and rolling counter beside one stage holding the active panel, whose product rows draw their own hairlines and brighten on hover.",
+            "html": "<section class=\"ds-suite\"><div class=\"ds-suite-glow\"></div><div class=\"ds-suite-rings\"></div><nav class=\"ds-suite-index\"><span class=\"ds-suite-rail\"><span class=\"ds-suite-rail-fill\"></span></span><ol><li><a href=\"#\">Spatial computing</a></li><li><a href=\"#\">Connection engine</a></li><li><a href=\"#\">Cloud suite</a></li><li><a href=\"#\" class=\"is-active\">Ciright of Things</a></li><li><a href=\"#\">Fintech</a></li><li><a href=\"#\">Immersive commerce</a></li></ol><p class=\"ds-suite-count\"><span class=\"ds-count-window\">04</span><span class=\"ds-count-total\">/ 06</span></p></nav><article class=\"ds-suite-panel\"><div class=\"ds-suite-copy\"><p class=\"ds-suite-lead\">Software and sensors that report from the machine.</p><p class=\"ds-suite-body\">IoT for Enterprise collects sound, vibration, temperature and machine data in the cloud.</p></div><div class=\"ds-suite-side\"><div class=\"ds-suite-media\"></div><ul class=\"ds-product-list\"><li class=\"ds-product\"><span class=\"ds-product-rule\"></span><h3 class=\"ds-product-name\">Machine Monitor</h3><p class=\"ds-product-text\"><span class=\"ds-product-tag\">Software</span>Fault detection diagnostics across every machine you service.</p></li><li class=\"ds-product\"><span class=\"ds-product-rule\"></span><h3 class=\"ds-product-name\">IoT Bridgeboard</h3><p class=\"ds-product-text\"><span class=\"ds-product-tag\">Sensor</span>Plug in, power on, and its data routes securely to the cloud.</p></li></ul></div></article></section>",
+            "css": ".ds-suite { --gx: 82%; --gy: 70%; position: relative; display: grid; grid-template-columns: 240px minmax(0, 1fr); column-gap: 48px; min-height: 460px; padding: 40px 44px 36px; border-radius: 44px; overflow: hidden; color: var(--on-night, #f4f4f7); background: var(--night-1, #01042e); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; } .ds-suite-glow { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(55% 70% at var(--gx) var(--gy), var(--night-3, #0c1a7c) 0%, var(--night-2, #040c52) 42%, transparent 78%); } .ds-suite-rings { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(closest-side, transparent 97%, rgba(150, 170, 255, 0.12) 98%, transparent 100%) 50% 105% / 70% 150% no-repeat, radial-gradient(closest-side, transparent 97%, rgba(150, 170, 255, 0.09) 98%, transparent 100%) 50% 105% / 100% 210% no-repeat, radial-gradient(closest-side, transparent 97%, rgba(150, 170, 255, 0.06) 98%, transparent 100%) 50% 105% / 130% 270% no-repeat; } .ds-suite-index { position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 24px; } .ds-suite-rail { position: absolute; top: 8px; bottom: 0; left: 0; width: 1px; background: rgba(244, 244, 247, 0.16); } .ds-suite-rail-fill { position: absolute; inset: 0; background: #fff; transform: scaleY(0.6); transform-origin: top; } .ds-suite-index ol { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; } .ds-suite-index a { position: relative; display: inline-block; padding: 5px 0; font-size: 22px; line-height: 1.15; letter-spacing: -0.025em; color: rgba(244, 244, 247, 0.34); text-decoration: none; transition: color 0.4s, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); } .ds-suite-index a::before { content: ''; position: absolute; top: 50%; left: -27px; width: 7px; height: 7px; margin-top: -3px; border-radius: 50%; background: #fff; transform: scale(0); transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-suite-index a:hover, .ds-suite-index a:focus-visible { color: rgba(244, 244, 247, 0.72); } .ds-suite-index a:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; border-radius: 6px; } .ds-suite-index a.is-active { color: #fff; transform: translateX(12px); } .ds-suite-index a.is-active::before { transform: translateX(-12px) scale(1); } .ds-suite-count { display: flex; align-items: baseline; gap: 10px; margin: auto 0 0; } .ds-count-window { font-size: 72px; font-weight: 300; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; } .ds-count-total { font-size: 17px; font-weight: 300; color: var(--on-night-soft, #b4b9d8); } .ds-suite-panel { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); column-gap: 40px; } .ds-suite-copy { display: flex; flex-direction: column; } .ds-suite-lead { margin: 0; max-width: 12em; font-size: 36px; line-height: 1.06; letter-spacing: -0.03em; text-wrap: balance; } .ds-suite-body { margin: auto 0 0; max-width: 40ch; font-size: 15.5px; line-height: 1.55; color: var(--on-night-soft, #b4b9d8); } .ds-suite-side { display: flex; flex-direction: column; gap: 20px; } .ds-suite-media { flex: 1 1 auto; min-height: 90px; border-radius: 14px; background: radial-gradient(60% 90% at 50% 60%, var(--photo-tint, #1a2a9c) 0%, var(--night-2, #040c52) 55%, var(--night-1, #01042e) 100%); } .ds-product-list { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid rgba(244, 244, 247, 0.16); } .ds-product { position: relative; display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 20px; align-items: baseline; padding: 14px 0; } .ds-product-rule { position: absolute; top: 0; left: 0; right: 0; height: 1px; background: rgba(244, 244, 247, 0.16); transform-origin: left; transition: background-color 0.4s; } .ds-product-name { margin: 0; overflow: hidden; font-size: 19px; font-weight: 400; line-height: 1.2; letter-spacing: -0.02em; transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1); } .ds-product-text { margin: 0; font-size: 14.5px; line-height: 1.45; color: var(--on-night-soft, #b4b9d8); transition: color 0.3s; } .ds-product:hover .ds-product-rule { background-color: rgba(150, 170, 255, 0.7); } .ds-product:hover .ds-product-name { transform: translateX(10px); } .ds-product:hover .ds-product-text { color: var(--on-night, #f4f4f7); } .ds-product-tag { display: inline-block; margin-right: 8px; padding: 0 8px; border: 1px solid rgba(150, 170, 255, 0.35); border-radius: 999px; font-size: 11.5px; line-height: 1.6; color: var(--on-night, #f4f4f7); vertical-align: 1px; }"
+        },
+        {
+            "name": "Poster Reel",
+            "kind": "custom",
+            "refersTo": "poster",
+            "description": "Signature: the Brands reel. Tall full-bleed photo posters on paper (the name at the top, a foot pinned to the bottom with an optional proof figure, the white tagline, haze body and explore link) and a paper end card, each with its own --lit focus bloom that turns a navy-monochrome photo to true colour, over the shared rolling counter and a hairline progress line.",
+            "html": "<section class=\"ds-reel\"><div class=\"ds-reel-strip\"><article class=\"ds-poster\" style=\"--lit:1\"><div class=\"ds-poster-media\"><div class=\"ds-poster-photo is-crowd\"></div></div><h2 class=\"ds-poster-name\">Sansar</h2><div class=\"ds-poster-foot\"><p class=\"ds-poster-figure\"><span class=\"ds-poster-figure-value\">4.36M</span><span class=\"ds-poster-figure-text\">people at the Lost Horizon festival, hosted in Sansar during lockdown</span></p><p class=\"ds-poster-line\">A playground for creative minds and virtual explorers.</p><p class=\"ds-poster-body\">A social platform of virtual worlds for clubs, concerts, games and exploration.</p></div></article><article class=\"ds-poster\" style=\"--lit:0.35\"><div class=\"ds-poster-media\"><div class=\"ds-poster-photo is-chip\"></div></div><h2 class=\"ds-poster-name\">Keyra</h2><div class=\"ds-poster-foot\"><p class=\"ds-poster-line\">The trust layer of the internet.</p><p class=\"ds-poster-body\">Carrier-scale SIM and eSIM signals composed with cryptographic verification: structured proof of identity instead of probabilistic guesswork.</p><a class=\"ds-explore\" href=\"#\">Visit Keyra <span class=\"ds-explore-chip\" aria-hidden=\"true\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 11.5 11.5 4.5M6 4.5h5.5V10\"/></svg></span></a></div></article><article class=\"ds-poster is-next\"><h2 class=\"ds-poster-name\">Your brand, next.</h2><div class=\"ds-poster-foot\"><p class=\"ds-poster-body\">Technology Equity Partnership: together we develop, build, market and launch.</p><a class=\"ds-poster-pill\" href=\"#\">Start a partnership</a></div></article></div><div class=\"ds-reel-foot\"><p class=\"ds-reel-count\"><span class=\"ds-count-window\">01</span><span class=\"ds-count-total\">/ 08</span></p><span class=\"ds-reel-progress\"><span class=\"ds-reel-progress-fill\"></span></span></div></section>",
+            "css": ".ds-reel { font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; background: var(--ground, #f8f8f8); padding: 32px 0; } .ds-reel-strip { display: flex; gap: 20px; padding: 0 32px 14px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 32px; scrollbar-width: thin; scrollbar-color: var(--night-3, #0c1a7c) transparent; } .ds-poster { --lit: 1; position: relative; flex: none; display: flex; flex-direction: column; width: 300px; height: 440px; padding: 24px 24px 22px; border-radius: 20px; overflow: hidden; isolation: isolate; scroll-snap-align: start; color: var(--on-night, #f4f4f7); background: var(--night-1, #01042e); transform: scale(calc(0.95 + 0.05 * var(--lit))); transform-origin: 50% 100%; } .ds-poster::after { content: ''; position: absolute; inset: 0; z-index: 3; pointer-events: none; background: var(--night-1, #01042e); opacity: calc((1 - var(--lit)) * 0.5); } .ds-poster-media { position: absolute; inset: 0; z-index: -1; overflow: hidden; background: var(--night-0, #00010d); } .ds-poster-photo { position: absolute; inset: 0; filter: grayscale(calc(1 - 0.9 * var(--lit))) contrast(calc(1.22 - 0.1 * var(--lit))) brightness(calc(0.46 + 0.3 * var(--lit))); transform: scale(calc(1.14 - 0.1 * var(--lit))); transition: scale 0.9s cubic-bezier(0.16, 1, 0.3, 1); } .ds-poster-photo.is-crowd { background: radial-gradient(40% 30% at 50% 45%, #ffd27a 0%, #ff6a3d 35%, transparent 70%), radial-gradient(70% 45% at 50% 100%, #3a1a5c 0%, transparent 100%), linear-gradient(180deg, #2a0f4a 0%, #120a24 100%); } .ds-poster-photo.is-chip { background: radial-gradient(35% 28% at 45% 50%, #f2d27c 0%, #b08a3a 45%, transparent 75%), linear-gradient(135deg, #5a4a2a 0%, #1c1810 100%); } .ds-poster-media::before { content: ''; position: absolute; inset: 0; z-index: 1; background: var(--photo-tint, #1a2a9c); mix-blend-mode: color; opacity: calc(1 - 0.85 * var(--lit)); } .ds-poster-media::after { content: ''; position: absolute; inset: 0; z-index: 2; background: linear-gradient(180deg, rgba(1, 4, 46, 0.74) 0%, rgba(1, 4, 46, 0) 38%), linear-gradient(0deg, rgba(1, 4, 46, 0.96) 0%, rgba(1, 4, 46, 0.78) 36%, rgba(1, 4, 46, 0) 68%); } @media (hover: hover) { .ds-poster:hover .ds-poster-photo { scale: 1.05; } } .ds-poster-name { position: relative; margin: 0; max-width: 7em; font-size: 46px; font-weight: 500; line-height: 0.95; letter-spacing: -0.04em; text-wrap: balance; color: #fff; } .ds-poster-foot { position: relative; display: flex; flex-direction: column; align-items: flex-start; margin-top: auto; padding-top: 18px; } .ds-poster-figure { display: flex; flex-direction: column; gap: 5px; align-self: stretch; margin: 0 0 16px; padding-bottom: 14px; border-bottom: 1px solid rgba(180, 185, 216, 0.28); } .ds-poster-figure-value { font-size: 52px; font-weight: 500; line-height: 0.95; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; color: #fff; } .ds-poster-figure-text { max-width: 24em; font-size: 12px; line-height: 1.35; color: var(--on-night, #f4f4f7); } .ds-poster-line { margin: 0; max-width: 14em; font-size: 20px; line-height: 1.12; letter-spacing: -0.025em; text-wrap: balance; color: #fff; } .ds-poster-body { margin: 8px 0 0; max-width: 36ch; font-size: 13px; line-height: 1.5; color: var(--on-night-soft, #b4b9d8); text-wrap: pretty; } .ds-explore { display: inline-flex; align-items: center; gap: 14px; margin-top: 16px; font-size: 15px; font-weight: 500; color: inherit; text-decoration: none; } .ds-explore-chip { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: #fff; color: var(--ink, #0a0b0e); transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-explore:hover .ds-explore-chip, .ds-explore:focus-visible .ds-explore-chip { transform: scale(1.25) rotate(45deg); } .ds-explore:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; border-radius: 6px; } .ds-poster.is-next { color: var(--ink, #0a0b0e); background: none; box-shadow: inset 0 0 0 1px rgba(10, 11, 14, 0.14); } .ds-poster.is-next .ds-poster-name { max-width: none; font-size: 46px; line-height: 0.96; color: inherit; } .ds-poster.is-next .ds-poster-body { margin: 0 0 18px; color: var(--ink-soft, #3d3e44); } .ds-poster-pill { display: inline-flex; align-items: center; height: 44px; padding: 0 20px; border-radius: 999px; background: var(--ink, #0a0b0e); color: #fff; font-size: 15px; text-decoration: none; transition: background 0.4s; } .ds-poster-pill:hover, .ds-poster-pill:focus-visible { background: var(--night-3, #0c1a7c); } .ds-poster-pill:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; } .ds-reel-foot { display: flex; align-items: center; gap: 24px; margin-top: 24px; padding: 0 32px; color: var(--ink, #0a0b0e); } .ds-reel-count { display: flex; align-items: baseline; gap: 8px; margin: 0; } .ds-count-window { font-size: 40px; font-weight: 300; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; } .ds-count-total { font-size: 17px; font-weight: 300; color: var(--muted, #5b5c63); } .ds-reel-progress { position: relative; flex: 1; height: 1px; background: rgba(10, 11, 14, 0.14); } .ds-reel-progress-fill { position: absolute; inset: 0; background: var(--ink, #0a0b0e); transform: scaleX(0.12); transform-origin: left; }"
+        },
+        {
+            "name": "Territory Section",
+            "kind": "custom",
+            "refersTo": "territory-media",
+            "description": "Signature: a partnership territory. Hairline-topped paper section with a 5:4 photo (32u radius) whose --lit scroll bloom turns navy monochrome into full colour, a 'Built here' foot overlay and explore chip, beside a headline-size name and a You bring / Ciright brings ledger where Ciright's side is weight 450.",
+            "html": "<section class=\"ds-territory\"><a class=\"ds-territory-media\" href=\"#\" style=\"--lit:0.6\"><span class=\"ds-territory-photo\"></span><span class=\"ds-territory-proof\"><span class=\"ds-territory-proof-name\">Built here: Sansar</span><span class=\"ds-territory-proof-line\">4.36 million people came to the Lost Horizon festival, hosted in Sansar.</span></span><span class=\"ds-explore-chip\" aria-hidden=\"true\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 11.5 11.5 4.5M6 4.5h5.5V10\"/></svg></span></a><div class=\"ds-territory-copy\"><h2 class=\"ds-territory-name\">Immersive worlds</h2><dl class=\"ds-territory-ledger\"><div class=\"ds-territory-row\"><dt>You bring</dt><dd>A world, a concert or a community you want people to step inside.</dd></div><div class=\"ds-territory-row\"><dt>Ciright brings</dt><dd>Spatial computing across AR, VR and mixed reality, with the photo realism and concurrency behind Sansar.</dd></div></dl></div></section>",
+            "css": ".ds-territory { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 56px; align-items: center; padding: 64px 0; border-top: 1px solid rgba(10, 11, 14, 0.14); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; color: var(--ink, #0a0b0e); background: var(--ground, #f8f8f8); } .ds-territory-media { --lit: 1; position: relative; display: block; aspect-ratio: 5 / 4; border-radius: 32px; overflow: hidden; isolation: isolate; color: #fff; text-decoration: none; background: var(--night-1, #01042e); } .ds-territory-photo { position: absolute; inset: 0; background: radial-gradient(40% 30% at 50% 45%, #ffd27a 0%, #ff6a3d 35%, transparent 70%), radial-gradient(70% 45% at 50% 100%, #3a1a5c 0%, transparent 100%), linear-gradient(180deg, #2a0f4a 0%, #120a24 100%); filter: grayscale(calc(1 - 0.9 * var(--lit))) contrast(calc(1.22 - 0.1 * var(--lit))) brightness(calc(0.46 + 0.3 * var(--lit))); scale: calc(1.14 - 0.1 * var(--lit)); } .ds-territory-media::before { content: ''; position: absolute; inset: 0; z-index: 1; background: var(--photo-tint, #1a2a9c); mix-blend-mode: color; opacity: calc(1 - 0.85 * var(--lit)); pointer-events: none; } .ds-territory-media::after { content: ''; position: absolute; inset: 0; z-index: 2; background: linear-gradient(0deg, rgba(1, 4, 46, 0.92) 0%, rgba(1, 4, 46, 0.55) 30%, rgba(1, 4, 46, 0) 58%); pointer-events: none; } .ds-territory-proof { position: absolute; left: 24px; right: 76px; bottom: 22px; z-index: 3; display: flex; flex-direction: column; gap: 5px; } .ds-territory-proof-name { font-size: 22px; font-weight: 500; line-height: 1.12; letter-spacing: -0.025em; } .ds-territory-proof-line { max-width: 34em; font-size: 13.5px; line-height: 1.45; color: var(--on-night-soft, #b4b9d8); } .ds-territory-media .ds-explore-chip { position: absolute; right: 22px; bottom: 22px; z-index: 3; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: #fff; color: var(--ink, #0a0b0e); transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-territory-media:hover .ds-explore-chip, .ds-territory-media:focus-visible .ds-explore-chip { transform: rotate(45deg); } .ds-territory-media:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; } .ds-territory-name { margin: 0; font-size: 56px; font-weight: 500; line-height: 1; letter-spacing: -0.04em; text-wrap: balance; } .ds-territory-ledger { margin: 36px 0 0; } .ds-territory-row { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 18px; padding: 18px 0; border-top: 1px solid rgba(10, 11, 14, 0.14); } .ds-territory-row dt { padding-top: 0.35em; font-size: 14px; font-weight: 500; color: var(--muted, #5b5c63); } .ds-territory-row dd { margin: 0; max-width: 24em; font-size: 20px; line-height: 1.22; letter-spacing: -0.025em; text-wrap: pretty; } .ds-territory-row + .ds-territory-row dd { font-weight: 450; }"
+        },
+        {
+            "name": "Press Story",
+            "kind": "card",
+            "refersTo": "press-media",
+            "description": "Signature: a Company press story on paper. The outlet's photograph in its own colour at the 32u radius, the headline, a graphite excerpt, then the source line (outlet at 500 in ink, date, optional medium) under the headline. Hover eases the photo in and underlines the title.",
+            "html": "<a class=\"ds-press\" href=\"#\"><span class=\"ds-press-media\"><span class=\"ds-press-photo\"></span></span><h3 class=\"ds-press-title\">How AR and VR are transforming the future of business</h3><p class=\"ds-press-text\">Through applications like digital twins and virtual showrooms, augmented reality and virtual reality are moving beyond entertainment to transform the sales process, writes Joseph Callahan, CEO of Ciright.</p><span class=\"ds-press-source\"><span class=\"ds-press-outlet\">Digital Commerce 360</span><time>December 13, 2024</time><span>Article</span></span></a>",
+            "css": ".ds-press { display: block; max-width: 520px; color: var(--ink, #0a0b0e); text-decoration: none; font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; } .ds-press-media { display: block; aspect-ratio: 3 / 2; border-radius: 32px; overflow: hidden; background: var(--night-1, #01042e); } .ds-press-photo { display: block; width: 100%; height: 100%; background: radial-gradient(30% 40% at 55% 45%, #f5f1e6 0%, #9fb3c8 40%, transparent 75%), linear-gradient(180deg, #6f8fb4 0%, #2d3b4f 100%); transition: scale 0.9s cubic-bezier(0.16, 1, 0.3, 1); } .ds-press:hover .ds-press-photo, .ds-press:focus-visible .ds-press-photo { scale: 1.04; } .ds-press-title { margin: 24px 0 0; font-size: 24px; font-weight: 500; line-height: 1.18; letter-spacing: -0.025em; text-wrap: balance; } .ds-press:hover .ds-press-title, .ds-press:focus-visible .ds-press-title { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; } .ds-press-text { margin: 12px 0 0; max-width: 58ch; font-size: 17px; line-height: 1.5; color: var(--ink-soft, #3d3e44); text-wrap: pretty; } .ds-press-source { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 16px; font-size: 14px; color: var(--muted, #5b5c63); } .ds-press-outlet { font-weight: 500; color: var(--ink, #0a0b0e); } .ds-press:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; border-radius: 6px; }"
+        },
+        {
+            "name": "Portal Leg",
+            "kind": "custom",
+            "refersTo": "leg-lead-media",
+            "description": "Signature: one city's leg inside the Company page's navy Portal field. A hairline head (place name, date line with story count), a 7fr / 5fr lead story (16:10 photograph at 32u beside title, haze excerpt, source and 'Read the story' chip; mirrored on alternate legs), then a four-column grid of 3:2 story cards at the card radius. Every outlet photograph is in its own colour; hover zooms the photo to 1.05 and underlines the title.",
+            "html": "<div class=\"ds-leg\"><div class=\"ds-leg-head\"><h3 class=\"ds-leg-place\">Philadelphia</h3><p class=\"ds-leg-when\">October to November 2024 · 5 stories</p></div><a class=\"ds-leg-lead\" href=\"#\"><span class=\"ds-leg-lead-media\"><span class=\"ds-leg-photo is-ribbon\"></span></span><span class=\"ds-leg-lead-copy\"><span class=\"ds-leg-lead-title\">Philly’s new livestream ‘Portal’ connects with 3 countries, to start</span><span class=\"ds-leg-lead-text\">Officials with Portals.org, the 2026 Philadelphia committee and other civic leaders gathered on October 22, 2024, to cut the ribbon on the large circular livestreaming device.</span><span class=\"ds-leg-source\"><span class=\"ds-leg-outlet\">NBC Philadelphia</span><time>October 23, 2024</time></span><span class=\"ds-explore\">Read the story <span class=\"ds-explore-chip\" aria-hidden=\"true\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 11.5 11.5 4.5M6 4.5h5.5V10\"/></svg></span></span></span></a><ul class=\"ds-leg-grid\"><li><a class=\"ds-leg-card\" href=\"#\"><span class=\"ds-leg-card-media\"><span class=\"ds-leg-photo is-podium\"></span></span><span class=\"ds-leg-card-title\">The Portal was brought to Philly out of love for the city</span><span class=\"ds-leg-source is-card\"><span class=\"ds-leg-outlet\">Metro Philadelphia</span><time>November 6, 2024</time></span></a></li><li><a class=\"ds-leg-card\" href=\"#\"><span class=\"ds-leg-card-media\"><span class=\"ds-leg-photo is-street\"></span></span><span class=\"ds-leg-card-title\">Portal Project: Philadelphia joins Lublin, Vilnius and Dublin</span><span class=\"ds-leg-source is-card\"><span class=\"ds-leg-outlet\">Mad White</span><time>October 25, 2024</time></span></a></li><li><a class=\"ds-leg-card\" href=\"#\"><span class=\"ds-leg-card-media\"><span class=\"ds-leg-photo is-crowd\"></span></span><span class=\"ds-leg-card-title\">All change for the Dublin portal as New York replaced by Philadelphia</span><span class=\"ds-leg-source is-card\"><span class=\"ds-leg-outlet\">The Irish Post</span><time>October 24, 2024</time></span></a></li><li><a class=\"ds-leg-card\" href=\"#\"><span class=\"ds-leg-card-media\"><span class=\"ds-leg-photo is-night\"></span></span><span class=\"ds-leg-card-title\">Philadelphians suspect new LOVE Park art installation is viral ‘portal’</span><span class=\"ds-leg-source is-card\"><span class=\"ds-leg-outlet\">6abc Action News</span><time>October 18, 2024</time></span></a></li></ul></div>",
+            "css": ".ds-leg { padding: 0 32px 36px; background: var(--night-1, #01042e); color: var(--on-night, #f4f4f7); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; } .ds-leg-head { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding-top: 26px; border-top: 1px solid rgba(244, 244, 247, 0.16); } .ds-leg-place { margin: 0; font-size: 44px; font-weight: 500; line-height: 1; letter-spacing: -0.04em; } .ds-leg-when { margin: 0; font-size: 15px; color: var(--on-night-soft, #b4b9d8); } .ds-leg-lead, .ds-leg-card { display: block; color: inherit; text-decoration: none; } .ds-leg-lead { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 44px; align-items: center; margin-top: 32px; } .ds-leg-lead-media, .ds-leg-card-media { display: block; overflow: hidden; background: var(--night-0, #00010d); } .ds-leg-lead-media { aspect-ratio: 16 / 10; border-radius: 32px; } .ds-leg-card-media { aspect-ratio: 3 / 2; border-radius: 20px; } .ds-leg-photo { display: block; width: 100%; height: 100%; transition: scale 0.9s cubic-bezier(0.16, 1, 0.3, 1); } .ds-leg-photo.is-ribbon { background: radial-gradient(18% 30% at 50% 55%, #f5f5f5 0%, #d9d9d9 60%, transparent 62%), linear-gradient(180deg, #86b0de 0%, #cfdcea 52%, #4d7a44 53%, #2c4a28 100%); } .ds-leg-photo.is-podium { background: radial-gradient(30% 40% at 55% 45%, #f5f1e6 0%, #9fb3c8 40%, transparent 75%), linear-gradient(180deg, #6f8fb4 0%, #2d3b4f 100%); } .ds-leg-photo.is-street { background: linear-gradient(135deg, #d8c3a0 0%, #a36b4a 50%, #3d2a22 100%); } .ds-leg-photo.is-crowd { background: radial-gradient(40% 35% at 50% 40%, #f0e2c4 0%, #c07a4a 45%, transparent 75%), linear-gradient(180deg, #4a5d78 0%, #1d2433 100%); } .ds-leg-photo.is-night { background: radial-gradient(22% 38% at 58% 55%, #ffffff 0%, #e8d9b0 30%, transparent 70%), linear-gradient(180deg, #1b2f52 0%, #0b1220 100%); } .ds-leg-lead:hover .ds-leg-photo, .ds-leg-lead:focus-visible .ds-leg-photo, .ds-leg-card:hover .ds-leg-photo, .ds-leg-card:focus-visible .ds-leg-photo { scale: 1.05; } .ds-leg-lead-copy { display: block; } .ds-leg-lead-title { display: block; font-size: 32px; font-weight: 500; line-height: 1.1; letter-spacing: -0.04em; text-wrap: balance; } .ds-leg-lead-text { display: block; max-width: 42ch; margin-top: 14px; font-size: 16px; line-height: 1.5; color: var(--on-night-soft, #b4b9d8); text-wrap: pretty; } .ds-leg-source { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 14px; font-size: 14px; color: var(--on-night-soft, #b4b9d8); } .ds-leg-source.is-card { gap: 2px 10px; margin-top: 10px; font-size: 13.5px; } .ds-leg-outlet { font-weight: 500; color: var(--on-night, #f4f4f7); } .ds-explore { display: inline-flex; align-items: center; gap: 14px; margin-top: 24px; font-size: 15px; font-weight: 500; } .ds-explore-chip { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: #fff; color: var(--ink, #0a0b0e); transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-leg-lead:hover .ds-explore-chip, .ds-leg-lead:focus-visible .ds-explore-chip { transform: scale(1.25) rotate(45deg); } .ds-leg-lead:hover .ds-leg-lead-title, .ds-leg-lead:focus-visible .ds-leg-lead-title, .ds-leg-card:hover .ds-leg-card-title, .ds-leg-card:focus-visible .ds-leg-card-title { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; } .ds-leg-lead:focus-visible, .ds-leg-card:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; border-radius: 6px; } .ds-leg-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 24px; margin: 44px 0 0; padding: 32px 0 0; list-style: none; border-top: 1px solid rgba(244, 244, 247, 0.16); } .ds-leg-card-title { display: block; margin-top: 14px; font-size: 17px; line-height: 1.25; letter-spacing: -0.02em; text-wrap: pretty; }"
+        },
+        {
+            "name": "Night Desk",
+            "kind": "input",
+            "refersTo": "desk-room",
+            "description": "Signature: the Contact form as a letter inside one white room on paper, outlined by a 1px hairline at the section radius, set in ink with no glow. Sentences in letter-size type carry inline blanks that grow with what is typed (visually hidden labels, Hint placeholders, a 2px ink-at-22% rule that turns ink with a 2px ink focus line, red when invalid); the subjects are the shared pill on a row of their own (1px ink outline, ink sweep with a white label on hover, ink fill with a white label and a #2b2c32 sweep when checked, 2px ink focus outline); a red error list sits under the reach line; the message box closes the letter; the primary (ink) Send pill whose label rolls to name the chosen subject sits beside a polite status line that says exactly what happened.",
+            "html": "<section class=\"ds-desk\"><form class=\"ds-letter\" onsubmit=\"return false\"><p class=\"ds-line\">Hi Ciright, I’m <span class=\"ds-blank\" data-fill=\"Maya Chen\"><label class=\"ds-vh\" for=\"ds-name\">Your name</label><input id=\"ds-name\" placeholder=\"your name\" size=\"1\" value=\"Maya Chen\" autocomplete=\"off\" oninput=\"this.parentNode.dataset.fill=this.value||this.placeholder\"></span> from <span class=\"ds-blank\" data-fill=\"your company\"><label class=\"ds-vh\" for=\"ds-company\">Your company</label><input id=\"ds-company\" placeholder=\"your company\" size=\"1\" autocomplete=\"off\" oninput=\"this.parentNode.dataset.fill=this.value||this.placeholder\"></span>.</p><fieldset class=\"ds-line ds-subjects\" onchange=\"var l=this.closest('.ds-desk').querySelector('.ds-send-label'),n=l.cloneNode();n.textContent=event.target.dataset.send;l.replaceWith(n)\"><legend class=\"ds-vh\">What is it about?</legend><span class=\"ds-subjects-lead\" aria-hidden=\"true\">I’d like to talk about</span><label class=\"ds-subject\"><input type=\"radio\" name=\"ds-subject\" data-send=\"Send message\" checked><span class=\"ds-pill\"><span>General</span></span></label><label class=\"ds-subject\"><input type=\"radio\" name=\"ds-subject\" data-send=\"Send my Centili SIM SECURE inquiry\"><span class=\"ds-pill\"><span>Centili SIM SECURE</span></span></label><label class=\"ds-subject\"><input type=\"radio\" name=\"ds-subject\" data-send=\"Send my M&amp;A inquiry\"><span class=\"ds-pill\"><span>M&amp;A</span></span></label><label class=\"ds-subject\"><input type=\"radio\" name=\"ds-subject\" data-send=\"Send my media inquiry\"><span class=\"ds-pill\"><span>Media relations</span></span></label></fieldset><p class=\"ds-line\">You can reach me at <span class=\"ds-blank is-invalid\" data-fill=\"maya@\"><label class=\"ds-vh\" for=\"ds-email\">Your email</label><input id=\"ds-email\" type=\"email\" placeholder=\"you@company.com\" size=\"1\" value=\"maya@\" aria-invalid=\"true\" aria-describedby=\"ds-email-error\" autocomplete=\"off\" oninput=\"this.parentNode.dataset.fill=this.value||this.placeholder\"></span> or on <span class=\"ds-blank\" data-fill=\"phone number\"><label class=\"ds-vh\" for=\"ds-phone\">Your phone</label><input id=\"ds-phone\" type=\"tel\" placeholder=\"phone number\" size=\"1\" autocomplete=\"off\" oninput=\"this.parentNode.dataset.fill=this.value||this.placeholder\"></span>.</p><ul class=\"ds-errors\"><li id=\"ds-email-error\">Check your email address, for example name@company.com.</li></ul><div class=\"ds-message\"><label class=\"ds-line\" for=\"ds-message\">Here is what I have in mind:</label><textarea id=\"ds-message\" rows=\"3\" placeholder=\"A few lines about your project, your timeline or your question.\"></textarea></div><div class=\"ds-desk-foot\"><button type=\"button\" class=\"ds-send\"><span class=\"ds-send-text\"><span class=\"ds-send-label\">Send message</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M6 4.5h5.5V10\"/></svg></span></button><p class=\"ds-desk-status\" role=\"status\">This form is not connected to Ciright’s inbox yet, so nothing was sent. Your details are still here; for now, please use <a href=\"#\">contactus.ciright.com</a>.</p></div></form></section>",
+            "css": ".ds-desk { --alert: #c4321c; --desk-rule: rgba(10, 11, 14, 0.22); --desk-rule-hover: rgba(10, 11, 14, 0.5); position: relative; isolation: isolate; overflow: hidden; padding: 48px 44px 44px; border: 1px solid rgba(10, 11, 14, 0.14); border-radius: 44px; background: #fff; color: var(--ink, #0a0b0e); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; } .ds-desk ::selection { background: var(--ink, #0a0b0e); color: #fff; } .ds-letter { --hint: #6f7077; --blank-rule: var(--desk-rule); margin: 0; font-size: 36px; font-weight: 400; line-height: 1.42; letter-spacing: -0.03em; } .ds-line { display: block; max-width: 24em; margin: 0; padding: 0; text-wrap: pretty; } .ds-line + .ds-line { margin-top: 10px; } .ds-vh { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; } .ds-blank { position: relative; display: inline-grid; max-width: 100%; vertical-align: baseline; } .ds-blank::after, .ds-blank input { grid-area: 1 / 1; padding: 0 0 0.06em; font: inherit; letter-spacing: inherit; } .ds-blank::after { content: attr(data-fill); padding-right: 0.06em; visibility: hidden; white-space: pre; overflow: hidden; } .ds-blank input, .ds-message textarea { border: 0; border-bottom: 2px solid var(--blank-rule); border-radius: 0; outline: none; background: transparent; color: var(--ink, #0a0b0e); caret-color: var(--ink, #0a0b0e); transition: border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1); } .ds-blank input { width: 100%; min-width: 0; margin: 0; } .ds-blank input::placeholder, .ds-message textarea::placeholder { color: var(--hint); opacity: 1; } .ds-blank input:hover, .ds-message textarea:hover { border-bottom-color: var(--desk-rule-hover); } .ds-blank input:focus-visible, .ds-message textarea:focus-visible { border-bottom-color: var(--ink, #0a0b0e); box-shadow: 0 2px 0 var(--ink, #0a0b0e); } .ds-blank input:focus-visible::placeholder { color: color-mix(in srgb, var(--hint) 55%, #fff); } .ds-blank input:-webkit-autofill { -webkit-text-fill-color: var(--ink, #0a0b0e); box-shadow: 0 0 0 100px #fff inset; transition: background-color 9999s; } .ds-blank.is-invalid input, .ds-message.is-invalid textarea { border-bottom-color: var(--alert); } .ds-blank.is-invalid input:focus-visible, .ds-message.is-invalid textarea:focus-visible { border-bottom-color: var(--alert); box-shadow: 0 2px 0 var(--alert); } .ds-subjects { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 10px; max-width: none; min-width: 0; margin: 18px 0; border: 0; } .ds-subjects-lead { flex-basis: 100%; margin-bottom: 6px; } .ds-subject { position: relative; display: inline-flex; border-radius: 999px; cursor: pointer; } .ds-subject input { position: absolute; inset: 0; z-index: 1; margin: 0; opacity: 0; cursor: pointer; } .ds-pill { position: relative; display: inline-flex; align-items: center; justify-content: center; height: 49px; min-height: 44px; padding: 0 22px; border: 1px solid var(--ink, #0a0b0e); border-radius: 999px; color: var(--ink, #0a0b0e); font-size: 15px; font-weight: 400; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; isolation: isolate; transition: color 0.3s, background-color 0.3s, border-color 0.3s; } .ds-pill::before { content: ''; position: absolute; left: -10%; right: -10%; top: 100%; height: 260%; border-radius: 50%; z-index: -1; background: var(--ink, #0a0b0e); transform: translateY(0) scale(0.6); transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); } @media (hover: hover) { .ds-subject:hover .ds-pill::before { transform: translateY(-70%) scale(1.2); } .ds-subject:hover .ds-pill { color: #fff; } } .ds-subject input:focus-visible + .ds-pill { color: #fff; } .ds-subject input:focus-visible + .ds-pill::before { transform: translateY(-70%) scale(1.2); } .ds-subject input:checked + .ds-pill { background: var(--ink, #0a0b0e); color: #fff; } .ds-subject input:checked + .ds-pill::before { background: #2b2c32; } .ds-subject input:focus-visible + .ds-pill { outline: 2px solid var(--ink, #0a0b0e); outline-offset: 3px; } .ds-errors { margin: 22px 0 0; padding: 0; list-style: none; font-size: 15px; line-height: 1.5; letter-spacing: -0.01em; color: var(--alert); } .ds-message { margin-top: 40px; } .ds-message textarea { display: block; width: 100%; min-height: calc(3 * 1.45em + 16px); margin: 14px 0 0; padding: 6px 0 14px; font: inherit; font-size: 22px; line-height: 1.45; letter-spacing: -0.02em; resize: vertical; field-sizing: content; } @supports (field-sizing: content) { .ds-message textarea { resize: none; } } .ds-desk-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 32px; margin-top: 44px; } .ds-send { position: relative; display: inline-flex; align-items: center; height: 58px; min-height: 48px; padding: 0 28px; border: 0; border-radius: 999px; background: var(--ink, #0a0b0e); color: #fff; font: inherit; font-size: 16px; font-weight: 500; overflow: hidden; isolation: isolate; cursor: pointer; } .ds-send::before { content: ''; position: absolute; left: -10%; right: -10%; top: 100%; height: 260%; border-radius: 50%; z-index: -1; background: var(--night-3, #0c1a7c); transform: translateY(0) scale(0.6); transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); } .ds-send:hover::before, .ds-send:focus-visible::before { transform: translateY(-70%) scale(1.2); } .ds-send:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; } .ds-send-text { display: inline-flex; align-items: center; gap: 10px; } .ds-send-label { display: inline-block; animation: ds-send-roll 0.6s cubic-bezier(0.16, 1, 0.3, 1); } @keyframes ds-send-roll { from { transform: translateY(80%); opacity: 0; filter: blur(3px); } } @media (prefers-reduced-motion: reduce) { .ds-send-label { animation: none; } } .ds-desk-status { flex: 1 1 240px; max-width: 62ch; margin: 0; font-size: 15px; line-height: 1.45; color: var(--ink, #0a0b0e); } .ds-desk-status a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }"
+        },
+        {
+            "name": "HQ Map",
+            "kind": "custom",
+            "refersTo": "hq-map",
+            "description": "Signature: a place drawn from OpenStreetMap data in the site palette. Lavender land, mint parks, navy water, white non-scaling roads in three weights, a dashed ink-at-30% rail, lavender-haloed labels, a moonlight river label inside the water, and one navy ring-pin. 3:2 at the 32u radius. (Simplified geometry for the panel; the shipped map is generated from OSM data.)",
+            "html": "<figure class=\"ds-hq-map\"><svg viewBox=\"0 0 1050 700\" preserveAspectRatio=\"xMidYMid slice\" role=\"img\" aria-label=\"Street map with Ciright's headquarters marked next to the station, west of the river\"><rect class=\"ds-m-ground\" width=\"1050\" height=\"700\"/><path class=\"ds-m-park\" d=\"M60 60h210v150H60zM820 470h170v170H820z\"/><path class=\"ds-m-water\" d=\"M700 0C670 200 760 380 720 700h110C870 380 780 200 810 0z\"/><path class=\"ds-m-minor\" d=\"M0 140H1050M0 520H1050M0 620H1050M160 0V700M320 0V700M900 0V700M980 0V700\"/><path class=\"ds-m-mid\" d=\"M0 260H1050M640 0V700\"/><path class=\"ds-m-major\" d=\"M0 330H1050M0 410H1050\"/><path class=\"ds-m-rail\" d=\"M540 0L580 700M556 0L596 700\"/><g class=\"ds-m-labels\" aria-hidden=\"true\"><text x=\"230\" y=\"318\" text-anchor=\"middle\">JFK Blvd</text><text x=\"230\" y=\"398\" text-anchor=\"middle\">Market St</text><text class=\"ds-m-river\" text-anchor=\"middle\" dominant-baseline=\"central\" transform=\"translate(768 560) rotate(-84)\">Schuylkill River</text></g><g transform=\"translate(525 350)\" aria-hidden=\"true\"><circle class=\"ds-pin-ring\" r=\"37\"/><circle class=\"ds-pin-dot\" r=\"8.5\"/><text class=\"ds-pin-label\" x=\"-48\" y=\"6\" text-anchor=\"end\">Ciright</text></g></svg></figure>",
+            "css": ".ds-hq-map { margin: 0; max-width: 640px; aspect-ratio: 3 / 2; overflow: hidden; border-radius: 32px; background: var(--lavender, #e6e8f5); } .ds-hq-map svg { display: block; width: 100%; height: 100%; } .ds-m-ground { fill: var(--lavender, #e6e8f5); } .ds-m-park { fill: var(--mint, #dcf2ec); } .ds-m-water { fill: var(--night-1, #01042e); } .ds-m-minor, .ds-m-mid, .ds-m-major, .ds-m-rail { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; } .ds-m-minor { stroke: #fff; stroke-width: 1.4px; } .ds-m-mid { stroke: #fff; stroke-width: 2.6px; } .ds-m-major { stroke: #fff; stroke-width: 4px; } .ds-m-rail { stroke: rgba(10, 11, 14, 0.3); stroke-width: 1px; stroke-dasharray: 3 3; } .ds-m-labels text, .ds-pin-label { font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; font-weight: 500; letter-spacing: -0.01em; paint-order: stroke; stroke: var(--lavender, #e6e8f5); stroke-linejoin: round; } .ds-m-labels text { font-size: 17px; fill: var(--ink-soft, #3d3e44); stroke-width: 4px; } .ds-m-labels .ds-m-river { font-size: 20px; letter-spacing: 0.02em; fill: var(--on-night, #f4f4f7); stroke: none; } .ds-pin-ring { fill: rgba(1, 4, 46, 0.08); stroke: var(--night-1, #01042e); stroke-width: 1.5px; vector-effect: non-scaling-stroke; transform-origin: 0 0; animation: ds-pin-open 1.8s cubic-bezier(0.16, 1, 0.3, 1) both; } @keyframes ds-pin-open { from { transform: scale(0.2); opacity: 0; } } @media (prefers-reduced-motion: reduce) { .ds-pin-ring { animation: none; } } .ds-pin-dot { fill: var(--night-1, #01042e); stroke: #fff; stroke-width: 3px; } .ds-pin-label { font-size: 21px; font-weight: 600; fill: var(--ink, #0a0b0e); stroke-width: 5px; }"
+        },
+        {
+            "name": "Result Tile",
+            "kind": "card",
+            "refersTo": "result-card-mint",
+            "description": "Near-square evidence tile in mint or lavender, tinted tile-lift shadow, set at a slight tilt.",
+            "html": "<div style=\"display:flex;gap:20px;padding:40px 30px\"><article class=\"ds-result ds-result-mint\" style=\"transform:rotate(-7deg)\"><h3>Forecast horizon</h3><p>Forecasting pushed from 30 days to 9 to 12 months.</p></article><article class=\"ds-result ds-result-lavender\" style=\"transform:rotate(5deg)\"><h3>Production planning</h3><p>A clearer picture of future demand.</p></article></div>",
+            "css": ".ds-result { display: flex; flex-direction: column; width: 240px; min-height: 220px; padding: 30px; border-radius: 6px; box-shadow: 0 30px 60px -30px rgba(1, 4, 46, 0.35); font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; color: var(--ink, #0a0b0e); } .ds-result h3 { margin: 0; font-size: 26px; font-weight: 500; letter-spacing: -0.02em; line-height: 1.1; } .ds-result p { margin: 16px 0 0; font-size: 16px; line-height: 1.5; color: var(--ink-soft, #3d3e44); } .ds-result-mint { background: var(--mint, #dcf2ec); } .ds-result-lavender { background: var(--lavender, #e6e8f5); }"
+        },
+        {
+            "name": "Media-In-Type Headline",
+            "kind": "custom",
+            "refersTo": "display",
+            "description": "Signature: a full-radius image pill set inline inside a display headline, sized in ems.",
+            "html": "<h1 class=\"ds-display\">Connect<span class=\"ds-type-pill\" aria-hidden=\"true\"></span><br>and transform<br>your business</h1>",
+            "css": ".ds-display { margin: 0; font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; font-size: 72px; font-weight: 500; line-height: 0.92; letter-spacing: -0.04em; color: var(--ink, #0a0b0e); } .ds-type-pill { display: inline-block; width: 3.1em; height: 1em; margin: -0.1em 0 -0.12em 0.16em; vertical-align: baseline; border-radius: 999px; overflow: hidden; background: radial-gradient(60% 90% at 50% 60%, var(--twin, #6d8bff) 0%, var(--night-3, #0c1a7c) 45%, var(--night-0, #00010d) 100%); }"
+        },
+        {
+            "name": "FAQ Item",
+            "kind": "custom",
+            "refersTo": "headline",
+            "description": "Hairline row on black; drawn plus rotates into a minus and the answer opens on a grid-row transition.",
+            "html": "<div class=\"ds-faq\" style=\"background:#000;padding:24px\"><button class=\"ds-faq-q\" aria-expanded=\"false\" onclick=\"this.parentElement.classList.toggle('is-open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('is-open'))\"><span>Where can Ciright Core be deployed?</span><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"><path class=\"ds-plus-v\" d=\"M10 3.5v13\"/><path d=\"M3.5 10h13\"/></svg></button><div class=\"ds-faq-a\"><div><p>Anywhere you need it: public, private or hybrid cloud, or on premises.</p></div></div></div>",
+            "css": ".ds-faq { color: #fff; font-family: 'Geologica Variable', 'Geologica', system-ui, sans-serif; } .ds-faq-q { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 24px; padding: 26px 0; border: 0; border-top: 1px solid rgba(255, 255, 255, 0.2); border-bottom: 1px solid rgba(255, 255, 255, 0.2); background: none; color: inherit; font: inherit; font-size: 21px; letter-spacing: -0.01em; text-align: left; cursor: pointer; } .ds-faq-q svg { flex: none; transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-plus-v { transition: opacity 0.3s; } .ds-faq.is-open .ds-faq-q svg { transform: rotate(180deg); } .ds-faq.is-open .ds-plus-v { opacity: 0; } .ds-faq-q:focus-visible { outline: 2px solid var(--twin, #6d8bff); outline-offset: 3px; } .ds-faq-a { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.55s cubic-bezier(0.16, 1, 0.3, 1); } .ds-faq.is-open .ds-faq-a { grid-template-rows: 1fr; } .ds-faq-a > div { overflow: hidden; } .ds-faq-a p { margin: 0; max-width: 62ch; padding: 20px 0 28px; color: #bdbdc6; font-size: 16px; line-height: 1.6; }"
+        }
+    ],
+    "narrative": {
+        "northStar": "The Night Shift Over White Paper",
+        "overview": "Ciright reads as a studio-grade editorial page that keeps dropping into night. The ground is near-white paper set in one grotesk, and the product lives in deep night-indigo fields that rise out of it: stacked solution cards, a trust band, a black brands capsule, and a black closing block. Light pages carry argument (statements, component index, case study, CEO quote); night fields carry the product and the proof. The alternation is the rhythm of the whole page. The Products page runs in the same world: its catalogue is one pinned navy suite room in which six product families take turns on a single stage, each listing its products as named type. The Brands page runs in it too: eight brands stand as tall full-bleed photo posters in one reel on paper, navy monochrome at rest, which the page walks sideways past a single lit focus point as the visitor scrolls down. The Partnership page runs in it as well: five territories stand one after another on paper, every one visible at once, each a large rounded photo that blooms from navy monochrome into full colour as it scrolls in, beside the territory's name and a two-row ledger of what the partner brings and what Ciright brings. The Company page runs in it as well: it tells the company through its press record alone, as press stories on paper (the outlet's photograph, the headline, an excerpt, and the source set below the headline), opened by the real podium photograph and broken once by a full-bleed navy Portal chapter whose stories run as legs, one per city: a lead story beside its photograph, then a grid of the rest, every outlet photograph in its own colour. The Contact page runs in it as well, as \"The Night Desk\": one rounded white room outlined by a hairline on the paper, set in ink, holds the whole form, written as a letter (\"Hi Ciright, I'm [name] from [company].\"), with the visitor's details as underlined blanks inside running sentences that grow as they are typed, the subjects as the site's own pills on a row of their own, and a message box to close it, followed on paper by the headquarters address beside a street map drawn from OpenStreetMap data in the site's own palette.\n\nDensity is low and confident. One statement per section, set large, no scaffolding around it: no eyebrow labels, no icon grids, no metric tile walls beyond the single hero stats strip. Motion is scroll-led and physical (smooth inertial scroll, cards that recede as the next one stacks over them, a product room that holds still while its families trade places on one stage, evidence tiles that arrive scattered and settle into a straight, level row by the time the row reaches mid-screen, and the founding statement and CEO quote that ink in word by word as they are read, under a rule that draws itself from the left), with a blend-mode cursor and magnetic pills as the studio signature. The brands reel adds one more: a row of posters that holds still while vertical scroll walks it sideways, the poster at the focus point fully lit and blooming into its photograph's own colour while its neighbours fall back to navy monochrome, dim and settle back by distance. The partnership page adds two scrubbed moments: territory photos that bloom into colour as they rise into view, and a four-verb headline that lights up word by word. The company page adds one: a night photograph revealed through a circle that widens from the photographed Portal ring to the full frame as it scrolls in, blooming from navy to colour as it opens. The contact page adds two small ones: the Send pill's label rolls up to name the subject just picked, and the map pin's ring opens once when the map scrolls into view. Every motion collapses to a still, fully legible page under reduced motion.\n\nThe anti-reference is the old ciright.com: enterprise image sliders, stock globes, and icon-feature grids. The signature that replaces them is media set *inside* type: a rounded video-still pill living in a headline word.",
+        "keyCharacteristics": [
+            "Near-white paper ground, ink type, and night-indigo fields as the only saturated surface.",
+            "One variable grotesk (Geologica) across every role; hierarchy comes from size, weight 350 to 500, and tight negative tracking.",
+            "Full pills for every action; circular arrow chips on text links and rows.",
+            "Rounded media set into headlines as the recurring signature.",
+            "Products listed as named type in hairline rows or text grids inside a night field, never as icon tiles.",
+            "Brands shown as tall full-bleed photo posters (a name at the top, a tagline and copy pinned to the foot, the photograph filling everything behind them), navy monochrome until focus blooms them to colour, never as a logo grid.",
+            "Partnership territories shown all at once as full sections (photo beside name and a You bring / Ciright brings ledger), never behind tabs.",
+            "Press coverage shown as stories (outlet photograph, headline, excerpt, then a source line under the headline), or inside the Portal field as a lead story over a grid of story cards, never as a press-logo wall or a grid of clipping scans.",
+            "Scroll-scrubbed depth (stacking, tilt, zoom-out) instead of static shadows.",
+            "One form, written as a letter inside a white room with ink type: blanks set in the sentence's own type that grow with what is typed, the site's own ink-outlined pills for subjects, a dark red error tone as the letter's only hue, and a status line that says exactly what happened.",
+            "Places drawn from street data in the site palette (lavender ground, mint parks, navy water, white roads), never embedded or photographed.",
+            "Everything scales from one comp unit, so the page is a proportional scale model of the 1280px comp."
+        ],
+        "rules": [
+            {
+                "name": "The Night Field Rule",
+                "body": "Saturated color appears only as a night field (a radial or vertical blend of night-1, night-2, night-3, starting from night-black where the field meets a black section). Paper sections stay monochrome; indigo never appears on paper except as a single emphasized word or figure. The HQ map is drawn material, not a field: its navy water and navy pin are map ink on a lavender ground. The Contact desk is not a night field either: it is a white room on paper with no glow.",
+                "section": "colors"
+            },
+            {
+                "name": "The Indigo Darkroom Rule",
+                "body": "Photographs never enter a night field in their own colors. A photo either goes grayscale with raised contrast and reduced brightness under a photo-tint color blend, or goes grayscale and multiplies onto deep indigo as a backdrop. Rendered product imagery that is already indigo-lit enters untreated, except on a brand poster, where a render takes the same treatment as the photos around it. The two exceptions bloom by the same formula: the brand poster in focus, and a partnership territory photo once it has scrolled into view, each returns to (nearly) its image's own colour (see The Focus-Light Rule). Every other poster, and every photo elsewhere, stays tinted. Inside the Company page's Portal field the step-through night photograph blooms by its own brighter ramp as it opens (see The Step-Through Rule). Outlet press photographs are the one standing exception: on paper and on the Portal legs alike they enter in their own colour (see The Outlet Colour Rule).",
+                "section": "colors"
+            },
+            {
+                "name": "The Outlet Colour Rule",
+                "body": "An outlet's press photograph is evidence, and it always shows in its own colour, on paper and inside a night field alike. It is never tinted, veiled or bloomed; hover answers only with a zoom.",
+                "section": "colors"
+            },
+            {
+                "name": "The Evidence Pastel Rule",
+                "body": "Mint and lavender mark proof (results), alternating tile by tile. They are not decoration and not section backgrounds. The HQ map is the one other place they appear, as land and parks.",
+                "section": "colors"
+            },
+            {
+                "name": "The Street-Data Map Rule",
+                "body": "A place is shown as a map drawn from OpenStreetMap data in the site palette: lavender land, mint parks, Ciright Navy water, white roads in three weights, a dashed ink-at-30% rail, and one navy ring-pin. It is never a tile embed, a screenshot or a stock photo, and it carries the ODbL credit in the page's footer.",
+                "section": "colors"
+            },
+            {
+                "name": "The White Desk Rule",
+                "body": "The Contact desk is a white room on the paper page, drawn by a 1px hairline border and the section radius, with no glow, rings or gradient. Its letter is ink: ink type, ink focus rules, ink-at-22% underlines, and neutral greys (Hint, Mist, Coal) for hints and pill sweeps. Navy never enters the letter. The Send pill is the shared primary pill unchanged.",
+                "section": "colors"
+            },
+            {
+                "name": "The Red-On-White Rule",
+                "body": "Errors inside the Contact desk are Signal Red (alert), shown on the blank's own rule and in plain sentences below it: a list under the reach line for the sentence blanks, one line under the message box for the message. The red is never a fill, never decorative, and never used outside the desk.",
+                "section": "colors"
+            },
+            {
+                "name": "The Named Product Rule",
+                "body": "A product is shown by its name in type, with one line of haze text and at most an outline tag. It never gets an icon, logo tile, or colored badge; any imagery belongs to the family, in one framed media slot per family panel.",
+                "section": "colors"
+            },
+            {
+                "name": "The Sentence-Is-The-Heading Rule",
+                "body": "Section headings are statements or plain titles. Never precede them with a small uppercase kicker; the uppercase label role exists only to caption data.",
+                "section": "typography"
+            },
+            {
+                "name": "The Tight-At-Size Rule",
+                "body": "Tracking tightens as size grows: -0.04em at display and headline, -0.02 to -0.035em for statement, index and title, normal for body. Never track display type positive.",
+                "section": "typography"
+            },
+            {
+                "name": "The Type-At-The-Edges Rule",
+                "body": "Type on a photo poster lives only where its scrims are: the name at the top, and the figure, tagline, body and link in the foot. The open middle belongs to the photograph. Name, tagline and figure are white; the body stays haze. A territory photo carries type only in its foot scrim: the white \"Built here\" line over a haze proof line, with the arrow chip in the opposite corner.",
+                "section": "typography"
+            },
+            {
+                "name": "The Source-Below Rule",
+                "body": "A press story names its source after the headline: outlet (weight 500), date, optional medium, in a small line under the title and excerpt. The outlet is never set above the headline as a label, and never as a logo.",
+                "section": "typography"
+            },
+            {
+                "name": "The Halo Rule",
+                "body": "A label on the map sits on a lavender halo (a stroke painted under the fill: 8 units behind street labels, 10 behind the pin label; 12 and 14 on mobile) so it reads over the roads. The river label is the one exception: moonlight set inside the navy water with no halo, turned along the river's course and flipped so it never reads upside down.",
+                "section": "typography"
+            },
+            {
+                "name": "The Scroll-Is-Depth Rule",
+                "body": "Depth is shown by motion (stacking, receding, zooming, tilting) and by light inside night fields. Do not add drop shadows to cards, pills or media.",
+                "section": "elevation"
+            },
+            {
+                "name": "The Room-To-Pin Rule",
+                "body": "Pinning needs room and motion. The Products suite pins only at 1100px wide and 700px tall or more, and never under reduced motion, `?still`, or without JavaScript; elsewhere it is a plain list with every family visible. Homepage solution cards pin at every width but sit in flow under reduced motion, and they recede only while actually sticky. The Brands reel pins only at 901px wide and 640px tall or more, under the same motion conditions; elsewhere it is a native swipe row.",
+                "section": "elevation"
+            },
+            {
+                "name": "The Focus-Light Rule",
+                "body": "In a walked reel, focus is shown by light, colour and scale, driven by scroll position alone: the poster at the focus point is fully lit and its photo blooms to true colour, while its neighbours drain to navy monochrome, dim under a navy veil and settle back to 0.95. A lit poster, and a partnership territory photo that has scrolled into view, are the only places a darkroom photograph returns to its own colour, and both reach it through the same filter and tint formula. Hover never lights a poster or a territory photo, and nothing dims or drains when motion is off. The Company page's Portal field adds one more bloom, the step-through photograph, which blooms by scroll through its own night ramp; its leg photographs are outlet evidence in their own colour and never light or drain.",
+                "section": "elevation"
+            },
+            {
+                "name": "The Step-Through Rule",
+                "body": "A reveal centres on what the photograph shows: the Portal chapter's clip circle, glow and rings all share the photographed Portal ring as their centre, and the circle opens from the ring's own size. It is the Company page's one authored motion moment, scrubbed by scroll and fully open when motion is off.",
+                "section": "elevation"
+            },
+            {
+                "name": "The Credited Photo Rule",
+                "body": "Every photograph a page ships is credited in that page's footer credits line, with its title, author and licence, and a note that it was tinted and cropped when it went through the darkroom. Renders are declared as illustrative. A press photograph shown with its story is credited to the outlet that published it (and carries that provenance in the file); the lead images, such as the podium and the Portal at night, are named with their outlet. A drawn map credits its data the same way (\"© OpenStreetMap contributors, available under the Open Database Licence\").",
+                "section": "components"
+            },
+            {
+                "name": "The One Door Rule",
+                "body": "Every Contact and demo action on the site (the header Contact pill, the hero and closing pills on every page, the mobile menu pill, and the footer's \"Contact us\" pill) points to `/contact` and opens in the same tab. A shared pill opens in a new tab only when its link leaves the site (it is treated as external unless its address starts with `/`). The old contactus.ciright.com form appears only as the fallback link inside the desk's error and unconnected messages, where it opens in a new tab.",
+                "section": "components"
+            },
+            {
+                "name": "The Honest Send Rule",
+                "body": "The desk shows exactly what happened and nothing more. Success appears only when the server has accepted the message; every failure says that nothing was received, keeps what the visitor typed, and offers the old contact form. The desk never invents a response time, routing promise, email or phone number.",
+                "section": "components"
+            },
+            {
+                "name": "The Written-In Rule",
+                "body": "A form field is a blank inside a sentence the visitor completes. The answer takes the sentence's own type and grows with what is typed; the sentence is the visible label, the field's name stays with assistive technology as a visually hidden label, and the hint says what belongs there. Never stack a label over a boxed or hairline input in a grid.",
+                "section": "components"
+            },
+            {
+                "name": "The All-At-Once Rule",
+                "body": "Every territory is its own full section and all five are on the page at the same time. The user rejected a tabbed territory map: territory content is never put behind tabs, a switcher or a pinned stage. The jump pills scroll to a territory; they do not select one.",
+                "section": "components"
+            },
+            {
+                "name": "The Label-On-Image Rule",
+                "body": "A press story's cursor word (\"Read\", \"Watch\") sits on its photograph or thumbnail, never on the text of a row or story. Text keeps the plain link cursor.",
+                "section": "components"
+            }
+        ],
+        "dos": [
+            "Do size new elements in comp units (`calc(N * var(--u))`) so they scale with the rest of the page.",
+            "Do put every action in a full pill, and end every card-level \"explore\" link with a trailing circular arrow chip.",
+            "Do let paper sections alternate with night fields; open each section with its statement or plain title as the h2.",
+            "Do run photographs through the indigo darkroom (grayscale plus photo-tint color blend, or grayscale multiplied onto deep indigo) before placing them in a night field. The only exceptions are a lit brand poster and a scrolled-in partnership territory photo, whose bloom returns the photo to true colour, and an outlet's press photograph, which always keeps its own colour.",
+            "Do credit every shipped photo (title, author, licence, and \"tinted and cropped\" when treated) in that page's footer credits.",
+            "Do hang statements and index text from the 376-unit label column.",
+            "Do tie every scroll effect to scroll position (scrubbed, or switched at scroll thresholds like the suite's family change) and give it a still fallback: under reduced motion (or `?still`), smooth scroll, reveals, scrubs and the cursor are off, sticky cards become static, and the suite stays a plain list.",
+            "Do keep twin blue as light: focus rings, link hovers, glows.",
+            "Do list products as named type in night-hairline rows (name 0.8fr, text 1.2fr) or a 2- to 3-column text grid inside their suite panel.",
+            "Do register a scroll destination for any jump target that lives inside a pinned room (a suite panel lands at (i + 0.2)/6 of the pinned range); otherwise point the jump at the element itself with a scroll-margin-top that clears the header.",
+            "Do build every page from the shared pill, header, closing, footer, and cursor, and mark the current page with `aria-current=\"page\"`.",
+            "Do build a horizontal reel as a native scroll-snap row first, and stage it (pin, walk, focus light, counter) only at 901px wide and 640px tall or more; register every staged poster as a scroll destination and walk the page to a poster when keyboard focus enters it.",
+            "Do reuse the shared rolling counter (window, reel, total) for any position count; the total takes haze inside a night field and pencil on paper.",
+            "Do show all five partnership territories at once as full sections with alternating photo sides, and distinguish Ciright's side of a ledger by weight (450), not colour.",
+            "Do reuse the poster bloom formula unchanged for any photo that blooms to colour on scroll, and let it rest fully lit when motion is off. The one sanctioned variant is a night photograph, which may ramp brightness to 1.08 (0.46 + 0.62 × lit) as the Portal step-through does.",
+            "Do show press coverage as stories: the outlet's photograph (32-unit radius), the headline, an excerpt, then the source line (outlet at 500, date, optional medium) under the headline. Inside a night field, give each leg a lead story (16:10 photograph beside title, haze excerpt, source and explore link) over a four-column grid of 3:2 story cards, every photograph in its own colour; mirror the lead on alternate legs, and turn the grid into thumbnail rows on mobile.",
+            "Do centre a reveal, its glow and its rings on the subject the photograph shows, as the Portal step-through centres on the photographed ring.",
+            "Do keep section titles on mobile below the hero headline size (9vw clamped 2 to 2.4rem).",
+            "Do point every Contact and demo action at `/contact` in the same tab; open a new tab only for links that leave the site.",
+            "Do write a form as a letter inside a white room on paper (1px hairline border, section radius, ink type): blanks in the sentence's own type (46 units clamped 28 to 54px) that grow with their content over a 2px ink-at-22% rule, visually hidden labels, Hint-coloured placeholders, an ink rule plus a 2px ink focus line on focus, Signal Red on error (a list under the line, a line under the message box), and autofill masked back to white.",
+            "Do build choice controls from the shared pill markup (49 units, weight 400, the ellipse sweep) rather than a restyled one-off pill.",
+            "Do say exactly what a submission did: focus the first invalid field and announce the count, say nothing was received on failure or when the form is unconnected, keep the visitor's details, and show the sent panel (and move focus to it) only after the server accepts.",
+            "Do let a choice name the action: the Send label rolls to the chosen subject, and simply changes under reduced motion.",
+            "Do draw places from OpenStreetMap data in the site palette (lavender land, mint parks, navy water, white non-scaling roads, dashed rail, one ring-pin), halo map labels in lavender, and credit the data under the ODbL in the footer."
+        ],
+        "donts": [
+            "Don't reintroduce the old ciright.com vocabulary: enterprise image sliders, stock globes, or icon-feature grids.",
+            "Don't put small uppercase kickers or eyebrows above headings; the uppercase label style captions data only.",
+            "Don't build metric tile grids. The hero stats strip (figures over a 2px ink rule) is the one place numbers are listed; the only other figure is a single proof number set in the foot of one brand poster.",
+            "Don't add drop shadows to pills, cards or media; the tile lift on result tiles is the only shadow.",
+            "Don't place full-color photography on indigo (a lit brand poster, a bloomed territory photo, the opened Portal step-through photo, or an outlet's press photograph on a Portal leg excepted), or indigo fields on paper as decoration.",
+            "Don't tint, veil or bloom an outlet's press photograph; hover answers only with a zoom.",
+            "Don't set a press outlet above a headline as a label, or show coverage as a press-logo wall or a grid of clipping scans.",
+            "Don't put a cursor word (\"Read\", \"Watch\") on a story's text; it belongs on the photograph or thumbnail only.",
+            "Don't put the partnership territories behind tabs, a switcher or a pinned stage; the user rejected the tabbed territory map.",
+            "Don't use mint or lavender outside evidence tiles, the white-pill hover sweep, and the HQ map's land and parks.",
+            "Don't box form fields or set them as a grid of labels over inputs, fake a successful send, or promise a response time, routing, email or phone number the business has not given.",
+            "Don't use Signal Red outside the Contact desk or as a fill; it is the desk's error tone only.",
+            "Don't bring navy, a glow or rings into the Contact desk's letter, or give its subject pills a navy sweep or a twin-blue ring; the letter is ink on white.",
+            "Don't embed a map widget or use a screenshot or stock office photo for a location; draw it.",
+            "Don't give products icons, logo tiles, or colored badges; the outline product tag is the only marker.",
+            "Don't show brands as a logo grid, or put a logo, icon or placeholder graphic on a poster; every brand poster carries one real photograph or render full bleed behind its name.",
+            "Don't introduce a second typeface or icon font; icons are inline stroked SVG at 1.6 to 1.8 stroke with round caps."
+        ]
+    }
+}

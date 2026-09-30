@@ -1,0 +1,19 @@
+---
+version: 1
+slug: "src-contactpage-jsx"
+primary_target: "src/ContactPage.jsx"
+related_targets: []
+---
+
+Scope: ciright.com/contact page (Operate: the visitor sends Ciright an inquiry). Visitor: prospects, channel partners, acquirers, Sansar and Centili customers, journalists. Task: send name, company, email, phone (all required), an optional subject from the five real ones (Centili SIM SECURE, Channel Partner, M&A, Sansar Metaverse and Spatial Computing, Media Relations) and a message. Proof/content: the real form fields and subjects from contactus.ciright.com and the Corporate Headquarters, Ciright, Inc, 3025 JFK Boulevard, Philadelphia, PA 19104; map drawn from OpenStreetMap data (ODbL). Constraints: no invented email, phone, response time or routing promise; submission posts JSON to VITE_CONTACT_ENDPOINT and, while unset, says so and points to contactus.ciright.com, never a fake success. Every site Contact link points here.
+
+## Direction contract
+
+THESIS: Contact as one white desk you write at, refusing the category's grey boxed form beside a stock office photo.
+OWN-WORLD: The site's paper #f8f8f8, ink and Geologica 500 at -0.04em; one rounded white room (#fff, a 1px var(--line) hairline border, the Products suite-room radius 44u, ink text, no glow) holds the whole form, written as a letter: "Hi Ciright, I'm [name] from [company].", then "I'd like to talk about" over the subjects as the site's shared pills on their own row, then "You can reach me at [email] or on [phone].", then "Here is what I have in mind:" over a message box (clamp(19px, 24u, 27px), 19px on mobile), then the Send pill, whose label rolls to the chosen subject, beside the status line. The blanks are letter-size type (clamp(28px, 46u, 54px), line-height 1.42, -0.03em; 26px / 1.5 at 900px and below) that auto-grow through an inline-grid mirror ::after fed by data-fill, with visually hidden labels and #6f7077 hints. Underlines are 2px --desk-rule (ink at 22%), --desk-rule-hover (ink at 50%) under the pointer; focus turns the rule ink and adds a 2px ink shadow line; invalid is --alert #c4321c, and invalid plus focus is red with the red shadow line. Inside .desk --on-night is ink and --on-night-soft is ink-soft; caret ink, selection ink with white text, autofill kept white. Subject pills are the shared .pill markup (49u, weight 400, ellipse sweep) with a 1px ink border and ink text like Products' .family-pill outline: an ink hover sweep with a white label on hover-capable devices (as on the Products family pills), checked an ink fill with white text and a #2b2c32 sweep, focus a 2px ink outline. The Send pill and the sent panel's "Send another message" pill are the shared pill-dark (ink with the Lifted Navy sweep). Errors are 15px red: a list under the reach line, a line under the message box. The HQ map is drawn from street data in paper, mint parks and a navy Schuylkill, with one ring-pin.
+STORY: Visitor reads one line, picks what it is about, writes, sends, and sees exactly what happened; then finds the building next to 30th Street Station.
+FIRST VIEWPORT: "Let's connect." at display size top left, lede bottom right; the white room rising below with the letter's opening line and the subject pills in view.
+FORM: The Night Desk, position 5 of 7 on my list, seed key 44be19c4, redrawn as "The Letter": the form reads as one sentence the visitor completes, with inline auto-growing blanks, the shared pills for subjects and a message box, all set in ink inside a white room on paper at the user's request.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+Signature interaction: choosing a subject rolls the Send pill's label to name it ("Send my M&A inquiry"). Motion grammar: the site's line reveal on the headline, the room rising once, the pin's ring opening once when the map enters view; nothing loops.
