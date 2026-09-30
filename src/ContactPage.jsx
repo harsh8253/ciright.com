@@ -5,9 +5,6 @@ import { ArrowUpRight } from './icons.jsx'
 import { useCursor, useSiteMotion } from './motion.js'
 import { Cursor, Footer, Header } from './shared.jsx'
 
-const credits =
-  'Map drawn from OpenStreetMap data, © OpenStreetMap contributors, available under the Open Database Licence.'
-
 const endpoint = import.meta.env.VITE_CONTACT_ENDPOINT
 
 const fields = {
@@ -365,7 +362,7 @@ export default function ContactPage() {
         <Desk />
         <Headquarters />
         <div className="night">
-          <Footer credits={credits} />
+          <Footer />
         </div>
       </main>
       <Cursor />

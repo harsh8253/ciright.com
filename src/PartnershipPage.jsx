@@ -4,9 +4,6 @@ import { ArrowUpRight } from './icons.jsx'
 import { useCursor, useSiteMotion } from './motion.js'
 import { Closing, Cursor, Footer, Header, Pill } from './shared.jsx'
 
-const credits =
-  'Photography via Wikimedia Commons, tinted and cropped: “A large crowd enjoys a music concert” (CC BY 2.0), “Eastern Side of 7th Avenue in Times Square” by Julian Lupyan (CC0), “A woman sits at a desk with her laptop” by Shixart1985 (CC BY 2.0). Platform and card renders are illustrative.'
-
 function PartnerHero() {
   return (
     <section className="hero partner-hero" aria-labelledby="hero-title">
@@ -180,7 +177,7 @@ export default function PartnershipPage() {
             cta="Start a partnership"
             long
           />
-          <Footer credits={credits} />
+          <Footer />
         </div>
       </main>
       <Cursor />

@@ -8,8 +8,10 @@ import BrandsPage from './BrandsPage.jsx'
 import PartnershipPage from './PartnershipPage.jsx'
 import CompanyPage from './CompanyPage.jsx'
 import ContactPage from './ContactPage.jsx'
+import CreditsPage from './CreditsPage.jsx'
 
 const routes = {
+  '/credits': CreditsPage,
   '/products': ProductsPage,
   '/brands': BrandsPage,
   '/partnership': PartnershipPage,

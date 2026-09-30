@@ -109,10 +109,8 @@ export function Closing({
   )
 }
 
-const homeCredits =
-  'Photography via Wikimedia Commons: “Woman Learning Design in Virtual Reality” (CC BY 2.0), “A large crowd enjoys a music concert” (CC BY 2.0), “Philadelphia Night Skyline” (CC BY-SA 4.0). Product renders are illustrative.'
-
-export function Footer({ credits = homeCredits }) {
+export function Footer() {
+  const onCredits = location.pathname.replace(/\/$/, '') === '/credits'
   return (
     <footer className="site-footer">
       <div className="footer-top">
@@ -136,9 +134,11 @@ export function Footer({ credits = homeCredits }) {
         <div className="footer-legal">
           <a href="https://ciright.com/terms-of-service">Terms of Service</a>
           <a href="https://ciright.com/anti-spam">Anti-Spam Policy</a>
-          <span>© {new Date().getFullYear()} Ciright</span>
+          <a href="/credits" {...(onCredits ? { 'aria-current': 'page' } : {})}>
+            Image credits
+          </a>
         </div>
-        <p className="footer-credits">{credits}</p>
+        <span>© {new Date().getFullYear()} Ciright</span>
       </div>
     </footer>
   )

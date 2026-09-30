@@ -6,9 +6,6 @@ import { Closing, Cursor, Footer, Header, Pill } from './shared.jsx'
 
 const partnership = '/partnership'
 const num = (i) => String(i + 1).padStart(2, '0')
-const credits =
-  'Photography via Wikimedia Commons, tinted and cropped: “Talkline SIM card” by Raimond Spekking (CC BY-SA 4.0), “Mobile Payment” by Richard Tanzer Fotografie / VeroPay (CC BY-SA 3.0), “A large crowd enjoys a music concert” (CC BY 2.0), “A ZKT-ECO fingerprint scanner in Guangzhou” by 中少 (CC BY-SA 4.0), “Audience at Access to Arts Conference Chandigarh” by Benipal hardarshan (CC BY-SA 4.0), “A woman sits at a desk with her laptop” by Shixart1985 (CC BY 2.0), “Eastern Side of 7th Avenue in Times Square” by Julian Lupyan (CC0). The CyberONE render is illustrative.'
-
 function BrandsHero() {
   return (
     <section className="hero brands-hero" aria-labelledby="hero-title">
@@ -135,7 +132,7 @@ export default function BrandsPage() {
         <Reel />
         <div className="night">
           <Closing />
-          <Footer credits={credits} />
+          <Footer />
         </div>
       </main>
       <Cursor />

@@ -4,9 +4,6 @@ import { ArrowUpRight } from './icons.jsx'
 import { useCursor, useSiteMotion } from './motion.js'
 import { Closing, Cursor, Footer, Header, Pill } from './shared.jsx'
 
-const credits =
-  'Press photographs belong to the outlets credited with each story, as featured on ciright.com. Podium photograph: Metro Philadelphia. Portal at night: 6abc Action News.'
-
 function Source({ outlet, date, medium }) {
   return (
     <span className="press-source">
@@ -224,7 +221,7 @@ export default function CompanyPage() {
             text="Whether you are writing about us, partnering with us or choosing a platform, start the conversation here."
             cta="Talk to Ciright"
           />
-          <Footer credits={credits} />
+          <Footer />
         </div>
       </main>
       <Cursor />
